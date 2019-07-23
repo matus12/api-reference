@@ -1,0 +1,2810 @@
+{
+  "items": {
+    "ccc47640_e602_01e2_ff6c_43c62fd11bff": {
+      "contentType": "callout",
+      "id": "ccc47640-e602-01e2-ff6c-43c62fd11bff",
+      "content": "<p><strong>Filtering by date-time values</strong></p>\n<p>Properties that store dates (such as the {~last_modified~} system property or <a href=\"https://developer.kenticocloud.com/reference#section-date-time-element-delivery-api-\"><em>Date &amp; time</em></a> elements) are represented as strings. If you use filtering operators on properties with string values, the Delivery API tries to perform a string comparison.</p>\n<p>For example, you can retrieve content items modified during February and March by using a query such as {~system.last_modified[range]=2018-02-01,2018-04-01~}, specifying a start date within the range and an end date outside the range.</p>",
+      "type": [
+        "Info"
+      ]
+    },
+    "n60fbbfdf_5267_0115_8d88_2fa75f07a05b": {
+      "contentType": "code_sample",
+      "id": "60fbbfdf-5267-0115-8d88-2fa75f07a05b",
+      "code": "\"meta_keywords\": {\n  \"type\": \"text\",\n  \"name\": \"Meta keywords\",\n  \"value\": \"\\\"coffee beginner\\\", beverages\"\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n115812cb_042b_01a7_c948_f835ee835f1b": {
+      "contentType": "code_sample",
+      "id": "115812cb-042b-01a7-c948-f835ee835f1b",
+      "code": "\"description\": {\n  \"type\": \"rich_text\",\n  \"name\": \"Description\",\n  \"images\": {\n    \"14mio\": {\n      \"image_id\": \"14mio\",\n      \"description\": \"Roasting coffee beans\",\n      \"url\": \"https://assets-us-01.kc-usercontent.com/38af179c-40ba-42e7-a5ca-33b8cdcc0d45/237362b4-5f2b-480e-a1d3-0ad5a6d5f8bd/roaster.jpg\",\n      \"width\": 600,\n      \"height\": 457\n    }\n  },\n  \"links\": {\n    \"f4b3fc05-e988-4dae-9ac1-a94aba566474\": {\n      \"type\": \"article\",\n      \"codename\": \"on_roasts\",\n      \"url_slug\": \"\"\n    }\n  },\n  \"modular_content\": [\n    \"coffee_processing_techniques\", # content item in Rich text\n    \"n249afaaf_1de5_011f_f683_c78fd9ec9d7c\" # component in Rich text\n  ],\n  \"value\": \"<p>We operate our own roasteries, one on every continent we cover, from where we distribute right to the <a href=\\\"https://example.com\\\" data-new-window=\\\"true\\\" title=\\\"Example link to shops\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">shops</a>. This allows you to experience every cup as if you were right at the very farm it originated from. To achieve this, we use a refurbished 1920s Probat coffee roasters.</p>\\n<figure data-image-id=\\\"14mio\\\"><img src=\\\"https://assets-us-01.kc-usercontent.com/38af179c-40ba-42e7-a5ca-33b8cdcc0d45/237362b4-5f2b-480e-a1d3-0ad5a6d5f8bd/roaster.jpg\\\" alt=\\\"Roasting coffee beans\\\" data-image-id=\\\"14mio\\\"></figure><p>We know that roasting is something you must keep on constantly perfecting. <object type=\\\"application/kenticocloud\\\" data-type=\\\"item\\\" data-rel=\\\"component\\\" data-codename=\\\"n249afaaf_1de5_011f_f683_c78fd9ec9d7c\\\"></object> Each coffee requires a different roast to get the aroma and taste just right. That’s why our experts fine tune the way we <a data-item-id=\\\"f4b3fc05-e988-4dae-9ac1-a94aba566474\\\" href=\\\"\\\">roast coffees</a> every day. It’s a constant struggle.</p><object type=\\\"application/kenticocloud\\\" data-type=\\\"item\\\" data-codename=\\\"coffee_processing_techniques\\\"></object>\"\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n832d6042_74d9_0189_382f_a670d1ce3e88": {
+      "contentType": "code_sample",
+      "id": "832d6042-74d9-0189-382f-a670d1ce3e88",
+      "code": "<figure data-image-id=\\\"14mio\\\"><img src=\\\"https://assets-us-01.kc-usercontent.com/38af179c-40ba-42e7-a5ca-33b8cdcc0d45/237362b4-5f2b-480e-a1d3-0ad5a6d5f8bd/roaster.jpg\\\" alt=\\\"Roasting coffee beans\\\" data-image-id=\\\"14mio\\\"></figure>",
+      "platform": [],
+      "programmingLanguage": [
+        "HTML"
+      ]
+    },
+    "ca3332ec_de33_0106_c8f1_a031985475bf": {
+      "contentType": "code_sample",
+      "id": "ca3332ec-de33-0106-c8f1-a031985475bf",
+      "code": "<!--content item-->\n<object type=\"application/kenticocloud\\\" data-type=\"item\" data-rel=\"link\" data-codename=\"coffee_processing_techniques\"></object>\"\n\n<!--component-->\n<object type=\"application/kenticocloud\\\" data-type=\"item\" data-rel=\"component\" data-codename=\"n249afaaf_1de5_011f_f683_c78fd9ec9d7c\"></object>",
+      "platform": [],
+      "programmingLanguage": [
+        "HTML"
+      ]
+    },
+    "n64c9821f_031f_0132_3970_2e54a44ec87a": {
+      "contentType": "code_sample",
+      "id": "64c9821f-031f-0132-3970-2e54a44ec87a",
+      "code": "<a data-item-id=\\\"f4b3fc05-e988-4dae-9ac1-a94aba566474\\\" href=\\\"\\\">roast coffees</a>",
+      "platform": [],
+      "programmingLanguage": [
+        "HTML"
+      ]
+    },
+    "n6d9f708d_8500_0159_ac96_a72fc7e5c8a0": {
+      "contentType": "code_sample",
+      "id": "6d9f708d-8500-0159-ac96-a72fc7e5c8a0",
+      "code": "\"processing\": {\n  \"type\": \"multiple_choice\",\n  \"name\": \"Processing\",\n  \"value\": [\n    {\n      \"name\": \"Dry (Natural)\",\n      \"codename\": \"dry__natural_\"\n    }\n  ]\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n709b23c3_b13c_01d4_21e8_addefc71dd58": {
+      "contentType": "code_sample",
+      "id": "709b23c3-b13c-01d4-21e8-addefc71dd58",
+      "code": "\"price\": {\n  \"type\": \"number\",\n  \"name\": \"Price\",\n  \"value\": 8.5\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n7b85f555_2909_0148_53e3_7747103903a6": {
+      "contentType": "code_sample",
+      "id": "7b85f555-2909-0148-53e3-7747103903a6",
+      "code": "\"post_date\": {\n  \"type\": \"date_time\",\n  \"name\": \"Post date\",\n  \"value\": \"2014-11-18T00:00:00Z\"\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n0d72e270_10d8_01e3_bae5_7fcea5a2206f": {
+      "contentType": "code_sample",
+      "id": "0d72e270-10d8-01e3-bae5-7fcea5a2206f",
+      "code": "\"teaser_image\": {\n  \"type\": \"asset\",\n  \"name\": \"Teaser image\",\n  \"value\": [\n    {\n      \"name\": \"coffee-beverages-explained-1080px.jpg\",\n      \"type\": \"image/jpeg\",\n      \"size\": \"90895\",\n      \"description\": null,\n      \"url\": \"https://assets-us-01.kc-usercontent.com/38af179c-40ba-42e7-a5ca-33b8cdcc0d45/e700596b-03b0-4cee-ac5c-9212762c027a/coffee-beverages-explained-1080px.jpg\",\n      \"width\": 1000,\n      \"height\": 666\n    }\n  ]\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n3acb9034_1970_011a_613a_fdeec22c7a2c": {
+      "contentType": "code_sample",
+      "id": "3acb9034-1970-011a-613a-fdeec22c7a2c",
+      "code": "\"facts\": {\n  \"type\": \"modular_content\",\n  \"name\": \"Facts\",\n  \"value\": [\n    \"our_philosophy\",\n    \"how_we_source_our_coffees\",\n    \"how_we_roast_our_coffees\"\n  ]\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n9edc54b0_d1b8_011f_dcad_423d2c952877": {
+      "contentType": "code_sample",
+      "id": "9edc54b0-d1b8-011f-dcad-423d2c952877",
+      "code": "\"color_picker\": {\n  \"type\": \"custom\",\n  \"name\": \"Color picker\"\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "c3d8c721_5a95_01c9_26fd_3d94399b64a9": {
+      "contentType": "code_sample",
+      "id": "c3d8c721-5a95-01c9-26fd-3d94399b64a9",
+      "code": "\"personas\": {\n  \"type\": \"taxonomy\",\n  \"name\": \"Personas\",\n  \"taxonomy_group\": \"personas\",\n  \"value\": [\n    {\n      \"name\": \"Coffee lover\",\n      \"codename\": \"coffee_lover\"\n    }\n  ]\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n35afbe6d_5f13_0106_3783_b43e0cbf68b7": {
+      "contentType": "code_sample",
+      "id": "35afbe6d-5f13-0106-3783-b43e0cbf68b7",
+      "code": "\"url_slug\": {\n  \"type\": \"url_slug\",\n  \"name\": \"URL slug\",\n  \"value\": \"brazil-natural-barra-grande\"\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "n891eb47b_1f77_01c3_c85b_fbd1ad3280ce": {
+      "contentType": "code_sample",
+      "id": "891eb47b-1f77-01c3-c85b-fbd1ad3280ce",
+      "code": "\"seo_metatata__meta_keywords\": {\n  \"type\": \"text\",\n  \"name\": \"Meta keywords\",\n  \"value\": \"donation, africa\"\n},\n\"seo_metatata__meta_description\": {\n  \"type\": \"text\",\n  \"name\": \"Meta description\",\n  \"value\": \"Dancing Goat regularly donates money to Children in Africa, a foundation helping children with food, accommodation, education, and other essentials.\"\n}",
+      "platform": [],
+      "programmingLanguage": [
+        "JSON"
+      ]
+    },
+    "secure_access": {
+      "contentType": "zapi__category",
+      "id": "312ecd2f-d37f-4055-82c2-ac912d0d4b8d",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>By default, the Delivery API does not require authentication but you can enable secure access for the project to force authenticated requests.</p>\n<p>With secure access, you can use two concurrent API keys, Primary and Secondary. For more details on how to work with the keys, see <a href=\"https://developer.kenticocloud.com/docs/securing-public-access\">Securing public access</a>.</p>\n<p>As the Delivery API is designed for continuous retrieval of published content, there is <strong>no expiration date</strong> for the Primary or Secondary API key.</p>\n<p>The API keys are <strong>scoped per project</strong>. This means you need a separate API key for each project in Kentico Cloud. All of the users contributing to the same project share the API keys.</p>",
+      "name": "Secure access",
+      "url": "secure-access"
+    },
+    "revoking_api_keys": {
+      "contentType": "zapi__category",
+      "id": "82ef61f4-ccee-42ac-95e2-1a44beda9625",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>The Delivery API with <a data-item-id=\"312ecd2f-d37f-4055-82c2-ac912d0d4b8d\" href=\"\">secure access</a> enabled and Delivery Preview API uses two concurrent API keys, Primary and Secondary. In certain situations, you may need to revoke one of these keys and generate a new one. For example, when you suspect unauthorized key use or when a developer with access to the API key has left your company.</p>\n<p>For situations like these, one or both of the API keys can be regenerated. Activating a new key will immediately replace the old key. Requests made with a revoked API key will then receive a {~401 Unauthorized~} HTTP status in the response.</p>\n<p>There is no expiration date for the Primary or Secondary API keys. However, we recommend that you regenerate the API keys periodically to prevent the keys from being compromised. Learn more in <a data-item-id=\"961f2179-e62c-4927-a7ad-e270d55fb61f\" href=\"\">Securing public access</a> and <a data-item-id=\"c62f9339-3ba4-4a02-98a3-f4920cb591be\" href=\"\">Previewing unpublished content</a>.</p>",
+      "name": "Revoking API keys",
+      "url": "revoking-api-keys"
+    },
+    "filtering_content": {
+      "contentType": "zapi__category",
+      "id": "b6cf1d73-471a-4f1e-b0a9-f0e041e2d905",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>When <a data-item-id=\"4fafdf10-32c6-4020-a91a-cf1f835f8107\" href=\"\">retrieving content items</a> from your project, you can filter large sets of content items by building query parameters from content elements and system properties. Note that filtering does NOT apply to content items returned within the {~modular_content~} collection.</p>\n<p>If you want to get a specific set of elements from content items, use the {~elements~} query parameter when retrieving items.</p>\n<h3>Filtering by {~system~} values</h3>\n<p>To filter by system property values, you need to use a query parameter in the {~system.&lt;property_name&gt;~} format. The {~system~} properties include {~id~}, {~name~}, {~codename~}, {~type~}, {~sitemap_locations~}, and {~last_modified~}. For example, to retrieve only content items based on the <em>Article</em> content type, you can use {~system.type=article~} as a query parameter.</p>\n<h3>Filtering by {~element~} values</h3>\n<p>To filter by <a href=\"https://developer.kenticocloud.com/reference#content-type-element-object\">content element</a> values, you need to use a query parameter in the {~elements.&lt;element_codename&gt;=&lt;value&gt;~} format. For example, to retrieve only content items whose <em>Number</em> element named <strong>Price</strong> has a value of 16, you can use {~elements.price=16 as~} a query parameter.</p>\n<h3>Joining multiple query parameters</h3>\n<p>You can join multiple query parameters by using the {~&amp;~} character. Queries with two or more filtering query parameters are more restrictive because the individual query parameters are merged with a logical conjunction (AND).</p>\n<p>For example, the query {~system.type=article&amp;elements.persona[contains]=barista~} will return the content items of type <em>Article</em> that are tagged with the <em>Barista</em> taxonomy term.</p>\n<h3>Filtering operators</h3>\n<p>You can use the following filtering operators with both system attributes and element values.</p>\n<p>Note that all of the operators are <strong>case-sensitive</strong>.</p>\n<table><tbody>\n  <tr><td>Operator</td><td>Description</td><td>Example</td><td>Use with</td></tr>\n  <tr><td>=</td><td>Property value is the same as the specified value.<br>\nMore in Comparing values.</td><td>{~system.type=article~}</td><td>Simple types</td></tr>\n  <tr><td>[lt]</td><td>Property value is less than the specified value.<br>\nMore in Comparing values.</td><td>{~system.last_modified[lt]=2019-03-01~}<br>\n{~elements.price[lt]=10~}</td><td>Simple types</td></tr>\n  <tr><td>[lte]</td><td>Property value is less than or equal to the specified value.<br>\nMore in Comparing values.</td><td>{~system.last_modified[lt]=2019-02-01~}<br>\n{~elements.price[lte]=4~}</td><td>Simple types</td></tr>\n  <tr><td>[gt]</td><td>Property value is greater than the specified value.<br>\nMore in Comparing values.</td><td>{~system.last_modified[gt]=2019-01-01~}<br>\n{~elements.price[gt]=10~}<br>\n</td><td>Simple types</td></tr>\n  <tr><td>[gte]</td><td>Property value is greater than or equal to the specified value.<br>\nMore in Comparing values.</td><td>{~system.last_modified[gt]=2019-02-28~}<br>\n{~elements.price[gt]=10~}</td><td>Simple types</td></tr>\n  <tr><td>[range]</td><td>Property value falls within the specified range of two values, both inclusive.<br>\nMore in Comparing values.<br>\n</td><td>{~system.last_modified[range]=2018-02-01,2018-03-31~}<br>\n{~elements.price[range]=10.5,50~}</td><td>Simple types</td></tr>\n  <tr><td>[in]</td><td>Property value is in the specified list of values.</td><td>{~system.type[in]=cafe,coffee~}<br>\n{~elements.price[in]=8.5,9,10.5~}</td><td>Simple types</td></tr>\n  <tr><td>[contains]</td><td>Property with an array of values contains the specified value.<br>\n<strong>Note</strong>: The {~[contains]~} operator cannot be used on strings.</td><td>{~elements.personas[contains]=barista~}</td><td>Arrays</td></tr>\n  <tr><td>[any]</td><td>Property with an array of values contains any (at least one) value from the specified list of values.</td><td>{~elements.personas[any]=barista,coffee_blogger~}</td><td>Arrays</td></tr>\n  <tr><td>[all]</td><td>Property with an array of values contains all of the specified values.</td><td>{~elements.personas[all]=barista,coffee_blogger~}</td><td>Arrays</td></tr>\n</tbody></table>\n<h3>Arrays vs. simple types</h3>\n<p>You can use the {~[contains]~}, {~[any]~}, and {~[all]~} filtering operators only on array properties. The supported array attributes include the sitemap locations <a href=\"https://developer.kenticocloud.com/reference#section-system-object-content-item-\">system object</a>, and the <a href=\"https://developer.kenticocloud.com/reference#section-linked-items-element-formerly-called-modular-content-delivery-api-\">Linked items</a>, <a href=\"https://developer.kenticocloud.com/reference#section-multiple-choice-element-delivery-api-\">Multiple choice</a>, and <a href=\"https://developer.kenticocloud.com/reference#section-taxonomy-element-delivery-api-\">Taxonomy</a> elements.</p>\n<p><strong>Note</strong>: <a href=\"https://developer.kenticocloud.com/reference#section-asset-element-delivery-api-\">Asset</a> elements are not supported with these filtering operators.</p>\n<h3>Comparing values</h3>\n<p>The filtering operators {~[lt]~}, {~[lte]~}, {~[gt]~}, {~[gte]~}, and {~[range]~} work best with numbers. For example, you can retrieve products with {~price~} larger or equal to 15 by using {~elements.price[gte]=15~}.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ccc47640_e602_01e2_ff6c_43c62fd11bff\" class=\"kc-linked-item-wrapper\"></p>",
+      "name": "Filtering content",
+      "url": "filtering-content"
+    },
+    "projection": {
+      "contentType": "zapi__category",
+      "id": "c4552a2f-142c-4415-b7aa-f2c5b165a84e",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>When <a data-item-id=\"4fafdf10-32c6-4020-a91a-cf1f835f8107\" href=\"\">getting a list of items</a>, you can specify which content elements to return by using the {~elements~} query parameter.</p>\n<p>By using {~elements=title~} as a query parameter, the {~elements~} collection in each content item will contain only the element with the codename {~title~}, or, if the item doesn't have an element with such codename, the {~elements~} collection will be empty.</p>\n<p>For multiple elements, you can use a query parameter such as {~elements=title,summary,related_articles~} to retrieve only the elements with codenames {~title~}, {~summary~}, and {~related_articles~}.</p>\n<p><strong>Note</strong>: Projection does not apply to the system properties. This means that you cannot omit the {~system~} object from the response using any query.</p>",
+      "name": "Projection",
+      "url": "projection"
+    },
+    "linked_content_and_components": {
+      "contentType": "zapi__category",
+      "id": "286dbb0e-f673-494f-abfd-3f39c7ec3446",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>Kentico Cloud offers a variety of ways to compose, structure and cross-reference your content:</p>\n<ul>\n  <li><strong>Linked items elements</strong> are used to reference other content items.</li>\n  <li><strong>Rich text elements</strong> can also contain content items. Useful for inserting content into a specific point in the text.</li>\n  <li>Rich text elements can contain <strong>components</strong>.\n    <ul>\n      <li>A component is a single-use content item.</li>\n      <li>It has the same structure as a <a data-item-id=\"0768ece4-91da-42a4-bab0-2086c66f9953\" href=\"\">content item</a>.</li>\n      <li>It is based on a specific content type.</li>\n      <li>Unlike a content item, a component only exists inside its Rich text element. Learn more about <a data-item-id=\"337e2e0a-fe9a-46cd-9176-2df0cedf1074\" href=\"\">using components</a>.</li>\n    </ul>\n  </li>\n</ul>\n<p>When <a data-item-id=\"4fafdf10-32c6-4020-a91a-cf1f835f8107\" href=\"\">retrieving items</a> using the Delivery API, the contents of <em>all components and content items in Rich text and Linked items elements</em> are stored in as properties in a separate {~modular_content~} object within the API response. The properties of the {~modular_content~} object (i.e., individual components and items) are not ordered. See the <a href=\"https://developer.kenticocloud.com/reference#section-linked-items-element-formerly-called-modular-content-delivery-api-\">Linked items</a> and <a href=\"https://developer.kenticocloud.com/reference#section-rich-text-element-delivery-api-\">Rich text</a> elements for how ordering is done there.</p>\n<p>Note that the object is called <em>\"modular_content\"</em> instead of <em>\"linked_content\"</em> for historical reasons.</p>\n<h3>Linked content depth</h3>\n<p><strong>Content items</strong> reference other content items using the <a href=\"https://developer.kenticocloud.com/reference#section-linked-items-element-formerly-called-modular-content-delivery-api-\">Linked items</a> or <a href=\"https://developer.kenticocloud.com/reference#section-rich-text-element-delivery-api-\">Rich text</a> element. These linked items can link to other items recursively. By default, only one level of linked items is returned.</p>\n<ul>\n  <li>If you want to include more than one level of linked items in response, use the {~depth~} query parameter.</li>\n  <li>If you want to exclude all linked items, use the {~depth=0~} query parameter.</li>\n  <li>When retrieving content, linked items cannot be <a href=\"https://developer.kenticocloud.com/reference#content-filtering\">filtered</a>.</li>\n</ul>\n<p><strong>Components</strong> are not affected by the {~depth~} parameter as they are an integral part of their Rich text element. They are always present in the response. Kentico Cloud will only let users nest components up to depth level 6.</p>",
+      "name": "Linked content and components",
+      "url": "linked-content-and-components"
+    },
+    "content_items": {
+      "contentType": "zapi__category",
+      "id": "0768ece4-91da-42a4-bab0-2086c66f9953",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p><br></p>",
+      "name": "Content items",
+      "url": "content-items"
+    },
+    "content_elements": {
+      "contentType": "zapi__category",
+      "id": "ea9768d1-bd2f-4027-bb5e-5cd9c85ea360",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>When getting <a data-item-id=\"4fafdf10-32c6-4020-a91a-cf1f835f8107\" href=\"\">content items</a> or <a href=\"https://developer.kenticocloud.com/reference#list-content-types\">content types</a>, you get an {~elements~} collection as a part of the retrieved item or type.</p>\n<h2>Element object</h2>\n<p>Each element in the {~elements~} collection contains the following properties.</p>\n<table><tbody>\n  <tr><td><strong>Property</strong></td><td><strong>Description</strong></td><td><strong>Type</strong></td><td><strong>Notes</strong></td></tr>\n  <tr><td>type</td><td>Type of the element</td><td>string</td><td>Valid values: {~text~}, {~rich_text~}, {~number~}, {~multiple_choice~}, {~date_time~}, {~asset~}, {~modular_content~} (Linked items element), {~taxonomy~}, {~url_slug~}.</td></tr>\n  <tr><td>name</td><td>Display name of the element</td><td>string</td><td><br></td></tr>\n  <tr><td>value</td><td>Value of the element</td><td>varies</td><td>Data type is based on the {~type~} of the element – see examples below for more details.</td></tr>\n</tbody></table>\n<p>Note that certain elements, such as <a href=\"https://developer.kenticocloud.com/reference#section-rich-text-element-delivery-api-\">Rich text</a> or <a href=\"https://developer.kenticocloud.com/reference#section-taxonomy-element-delivery-api-\">Taxonomy</a>, can contain additional attributes.</p>\n<p>For an overview of the available elements and their limits, see the <a data-item-id=\"20331b83-fb3f-414f-ba4e-d69e191ac766\" href=\"\">reference of content type elements</a>.</p>\n<h3>Text element</h3>\n<p>The value of <em>Text </em>elements is a {~string~}.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n60fbbfdf_5267_0115_8d88_2fa75f07a05b\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Rich text element</h3>\n<p>In addition to formatted text, the <em>Rich text</em> element's {~value~} property can contain objects representing images, components, content items, and links to content items. Information about these objects is stored in separate properties:</p>\n<ul>\n  <li>{~images~} – stores metadata of assets in the text.</li>\n  <li>{~modular_content~} – stores metadata of linked items and components in the text.</li>\n  <li>{~links~} – stores metadata about content items linked in the text.</li>\n</ul>\n<p><strong>Note</strong>: If the element does not contain any text, its value defaults to a single empty paragraph: {~&lt;p&gt;&lt;br&gt;&lt;/p&gt;~}.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n115812cb_042b_01a7_c948_f835ee835f1b\" class=\"kc-linked-item-wrapper\"></p>\n<h4>Images (single object)</h4>\n<p>Each object in the images collection represents an image ID, e.g., {~14mio~}.</p>\n<table><tbody>\n  <tr><td><strong>Attribute</strong></td><td><strong>Description</strong></td><td><strong>Type</strong></td><td><strong>Notes</strong></td></tr>\n  <tr><td>image_id</td><td>ID of the image</td><td>string</td><td><br></td></tr>\n  <tr><td>description</td><td>Description of the image</td><td>string</td><td>Used for the {~alt~} attribute of an {~&lt;img&gt;~} tag.</td></tr>\n  <tr><td>url</td><td>Absolute URL for the image</td><td>string</td><td><br></td></tr>\n  <tr><td>width</td><td>Width of the image</td><td>integer</td><td><br></td></tr>\n  <tr><td>height</td><td>Height of the image</td><td>integer</td><td><br></td></tr>\n</tbody></table>\n<p>In the Rich text element's {~value~}, images are represented by {~figure~} and {~img~} tags:</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n832d6042_74d9_0189_382f_a670d1ce3e88\" class=\"kc-linked-item-wrapper\"></p>\n<h4>Modular content (components and items in rich text)</h4>\n<p>The {~modular_content~} collection represents <a data-item-id=\"286dbb0e-f673-494f-abfd-3f39c7ec3446\" href=\"\">components and content items</a> inserted into rich text. The content items and components are represented as an array of strings. Each string is the codename of a content item or component.</p>\n<p>The codenames are grouped with all content items first and then all components, with the order within each group matching that in the UI. The content of these items and components can be found in the {~modular_content~} property of the API response when <a data-item-id=\"4fafdf10-32c6-4020-a91a-cf1f835f8107\" href=\"\">retrieving content items</a>.</p>\n<p>In the Rich text element's {~value~}, content items and components are represented by {~object~} tags.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ca3332ec_de33_0106_c8f1_a031985475bf\" class=\"kc-linked-item-wrapper\"></p>\n<p><strong>Note</strong>: Both components and items have a {~data-type=\"item\"~} attribute so they can be resolved using a single method. You can differentiate between components and items in Rich text using the {~data-rel~} attribute.</p>\n<h4>Links (single object)</h4>\n<p>Each object in the {~links~} collection represents a content item ID in the GUID format, e.g., {~f4b3fc05-e988-4dae-9ac1-a94aba566474~}.</p>\n<table><tbody>\n  <tr><td><strong>Attribute</strong></td><td><strong>Description</strong></td><td><strong>Type</strong></td><td><strong>Notes</strong></td></tr>\n  <tr><td>type</td><td>Content type of the content item</td><td>string</td><td><br></td></tr>\n  <tr><td>codename</td><td>Display name of the element</td><td>string</td><td><br></td></tr>\n  <tr><td>url_slug</td><td>URL slug of the content item</td><td>string</td><td>Empty string if the content item's type does not use a URL slug element.</td></tr>\n</tbody></table>\n<p>In the Rich text element's {~value~}, links are represented by {~a~} tags.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n64c9821f_031f_0132_3970_2e54a44ec87a\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Multiple choice element</h3>\n<p>The {~value~} of <em>Multiple choice</em> elements is an array of selected options. Each option has the {~name~} and {~codename~} properties. The order of the option objects in the array matches the order of the options in the UI.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6d9f708d_8500_0159_ac96_a72fc7e5c8a0\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Number element</h3>\n<p>The {~value~} of <em>Number</em> elements is a decimal number. If empty, the element's {~value~} is {~null~}.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n709b23c3_b13c_01d4_21e8_addefc71dd58\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Date &amp; time element</h3>\n<p>The {~value~} of <em>Date &amp; time</em> elements is an <a href=\"https://en.wikipedia.org/wiki/ISO_8601\" data-new-window=\"true\" title=\"International standard covering the exchange of date- and time-related data\" target=\"_blank\" rel=\"noopener noreferrer\">ISO-8601</a> formatted string. If empty, the {~value~} is {~null~}.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n7b85f555_2909_0148_53e3_7747103903a6\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Asset element</h3>\n<p>The {~value~} of <em>Asset</em> elements is an array of asset objects. The objects are returned in the same order as shown in the UI.</p>\n<h4>Asset object</h4>\n<table><tbody>\n  <tr><td><strong>Attribute</strong></td><td><strong>Description</strong></td><td><strong>Type</strong></td></tr>\n  <tr><td>name</td><td>File name of the asset</td><td>string</td></tr>\n  <tr><td>type</td><td>MIME type of the asset</td><td>string</td></tr>\n  <tr><td>size</td><td>Size of the asset in bytes</td><td>integer</td></tr>\n  <tr><td>description</td><td>Description of the asset</td><td>string</td></tr>\n  <tr><td>url</td><td>Absolute URL for the asset</td><td>string</td></tr>\n  <tr><td>width</td><td>Width of the image in pixels</td><td>integer</td></tr>\n  <tr><td>height</td><td>Height of the image in pixels</td><td>integer</td></tr>\n</tbody></table>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n0d72e270_10d8_01e3_bae5_7fcea5a2206f\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Linked items element (formerly called Modular content)</h3>\n<p>The {~value~} of <em>Linked items</em> elements is an array of strings. Each string represents a codename of a content item. The order of the codenames in the array matches the order of the content items in the UI. The content of these items and components can be found in the {~modular_content~} property of the API response when <a data-item-id=\"4fafdf10-32c6-4020-a91a-cf1f835f8107\" href=\"\">retrieving content items</a>.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n3acb9034_1970_011a_613a_fdeec22c7a2c\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Custom element</h3>\n<p>The {~value~} of Custom elements is a string. If empty, the {~value~} is {~null~}.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n9edc54b0_d1b8_011f_dcad_423d2c952877\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Taxonomy element</h3>\n<p>The {~value~} of <em>Taxonomy</em> elements is an array of selected taxonomy terms.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"c3d8c721_5a95_01c9_26fd_3d94399b64a9\" class=\"kc-linked-item-wrapper\"></p>\n<h3>URL slug</h3>\n<p>The {~value~} of URL slug elements is a string.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n35afbe6d_5f13_0106_3783_b43e0cbf68b7\" class=\"kc-linked-item-wrapper\"></p>\n<h3>Content type snippet</h3>\n<p>The <em>Content type snippet</em> elements have no value of their own. Content type snippets are expanded into the elements they contain. You can recognize the elements expanded from snippets by element codenames.</p>\n<p>For example, a content type snippet with two elements will be structured as the 2 elements directly, without any encapsulation. The codenames of these two elements will be in the following format: &lt;content_type_snippet_codename&gt;__&lt;content_element_codename&gt;.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n891eb47b_1f77_01c3_c85b_fbd1ad3280ce\" class=\"kc-linked-item-wrapper\"></p>",
+      "name": "Content elements",
+      "url": "content-elements"
+    },
+    "content_types": {
+      "contentType": "zapi__category",
+      "id": "6eec4ee8-1e14-433c-b35b-39e9d151a377",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p><br></p>",
+      "name": "Content types",
+      "url": "content-types"
+    },
+    "taxonomy_groups": {
+      "contentType": "zapi__category",
+      "id": "6ebbae00-ec9c-4fe2-8bc1-80b2ce0b1425",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p><br></p>",
+      "name": "Taxonomy groups",
+      "url": "taxonomy-groups"
+    },
+    "basic_string_schema": {
+      "contentType": "zapi_schema__string",
+      "id": "35df2018-db03-4b9a-813a-1d1929fbb6c5",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API",
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "array_of_strings": {
+      "contentType": "zapi_schema__array",
+      "id": "f34181bc-3fba-4e74-9145-b90561c12097",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"basic_string_schema\" class=\"kc-linked-item-wrapper\"></p>\n<p><br></p>",
+      "uniqueItems": []
+    },
+    "basic_integer_schema": {
+      "contentType": "zapi_schema__integer",
+      "id": "4ae87aa1-6d1d-4e94-afe0-4453c8975a14",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": null,
+      "format": [],
+      "maximum": null,
+      "minimum": null
+    },
+    "basic_boolean_schema": {
+      "contentType": "zapi_schema__boolean",
+      "id": "639682f3-2d9c-43f3-955c-25d13f5edd57",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "apiReference": [
+        "Recommendation API"
+      ]
+    },
+    "project_id": {
+      "contentType": "zapi_parameter",
+      "id": "e71e3bac-47b2-41cd-84d8-45b5301c2018",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>The ID of your Kentico Cloud project.</p>",
+      "example": "975bf280-fd91-488c-994c-2f04416e5ee3",
+      "explode": [],
+      "location": [
+        "path"
+      ],
+      "name": "project_id",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "item_codename": {
+      "contentType": "zapi_parameter",
+      "id": "a8e2f0c4-6ce4-4f42-a255-873dee033c14",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>The codename of a specific content item.</p>",
+      "example": "on_roasts",
+      "explode": [],
+      "location": [
+        "path"
+      ],
+      "name": "item_codename",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "language": {
+      "contentType": "zapi_parameter",
+      "id": "5e190b27-1811-4da6-b4b3-92182e071434",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>Determines which language variant of content to return. By default, the API returns content in the default project language. If the requested content is not available in the specified language variant, the API follows the <a href=\"/tutorials/set-up-projects/set-up-languages/localization-in-kentico-cloud#a-understanding-language-fallbacks\" title=\"Understanding language fallbacks\">language fallbacks</a> as configured in the <a data-item-id=\"2aa3634d-985f-4fa6-97a3-77fcdefb4510\" href=\"\">Localization</a> settings of your project.</p>",
+      "example": "en-US",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "language",
+      "required": [],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "elements": {
+      "contentType": "zapi_parameter",
+      "id": "34ec3c6c-2aa7-45c4-b9cf-0d74a313b7d4",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>A comma-separated list of content element codenames. Use this parameter to choose which elements to retrieve. The {~elements~} query parameter applies to all content items within the response.</p>\n<p>If not specified, all content elements are retrieved. For more details, see <a data-item-id=\"c4552a2f-142c-4415-b7aa-f2c5b165a84e\" href=\"\">Projection</a>.</p>",
+      "example": "title,summary,post_date,teaser_image",
+      "explode": [
+        "false"
+      ],
+      "location": [
+        "query"
+      ],
+      "name": "elements",
+      "required": [],
+      "schema": [
+        "array_of_strings"
+      ],
+      "style": [
+        "form"
+      ]
+    },
+    "depth": {
+      "contentType": "zapi_parameter",
+      "id": "52be7100-d8de-461f-b2ba-55c2c0959fd3",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>Content items can use <a href=\"https://developer.kenticocloud.com/reference#section-linked-items-element-formerly-called-modular-content-delivery-api-\">Linked items</a> and <a href=\"https://developer.kenticocloud.com/reference#section-rich-text-element-delivery-api-\">Rich text</a> elements to reference other content items. By default, only the first level of linked items is returned (equivalent to {~depth=1~}).</p>\n<p>If you need to exclude all linked items from the response, set the parameter value to {~0~}. Components are always present in response. See <a data-item-id=\"286dbb0e-f673-494f-abfd-3f39c7ec3446\" href=\"\">Linked content and components</a> for more details.</p>",
+      "example": "1",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "depth",
+      "required": [],
+      "schema": [
+        "basic_integer_schema"
+      ],
+      "style": []
+    },
+    "x_kc_wait_for_loading_new_content": {
+      "contentType": "zapi_parameter",
+      "id": "ef56b964-2596-46bb-ba87-c8cf8eb968c9",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>If the requested content has changed since the last request, the header determines whether to wait while fetching content. This can be useful when retrieving changed content in reaction to a <a data-item-id=\"5b87f0a1-c271-449d-a9dc-04f995c89589\" href=\"\">webhook</a> call. By default, when the header is not set, the API serves old content (if cached by the CDN) while it's fetching the new content to minimize wait time. To always fetch new content, set the header value to {~true~}.</p>",
+      "example": "",
+      "explode": [],
+      "location": [
+        "header"
+      ],
+      "name": "X-KC-Wait-For-Loading-New-Content",
+      "required": [],
+      "schema": [
+        "basic_boolean_schema"
+      ],
+      "style": []
+    },
+    "n043bc13c_c391_0116_9a26_ef73a36837e6": {
+      "contentType": "zapi_schema__string",
+      "id": "043bc13c-c391-0116-9a26-ef73a36837e6",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Unique identifier of the content item</p>",
+      "example": "f4b3fc05-e988-4dae-9ac1-a94aba566474",
+      "name": "id",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "uuid",
+      "maxLength": null,
+      "minLength": null
+    },
+    "f25ae55b_b32f_0108_75dd_110a63e8bbcd": {
+      "contentType": "zapi_schema__string",
+      "id": "f25ae55b-b32f-0108-75dd-110a63e8bbcd",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Display name of the content item</p>",
+      "example": "On Roasts",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n7bc5c917_c2b2_0181_211b_f6bcb157efe8": {
+      "contentType": "zapi_schema__string",
+      "id": "7bc5c917-c2b2-0181-211b-f6bcb157efe8",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the content item. By default, generated from the content item's display {~name~}.</p>",
+      "example": "on_roasts",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "ec13646a_1f2d_0144_0d58_2f0e7fa34819": {
+      "contentType": "zapi_schema__string",
+      "id": "ec13646a-1f2d-0144-0d58-2f0e7fa34819",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the language that the content is in. For details on retrieving content in different languages, see <a data-item-id=\"bf83b286-9972-4e65-8db9-412ca17df944\" href=\"\">Getting localized content</a>.</p>",
+      "example": "en-US",
+      "name": "language",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n04369c15_ba95_01da_37da_1af4b10cce5b": {
+      "contentType": "zapi_schema__string",
+      "id": "04369c15-ba95-01da-37da-1af4b10cce5b",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the content type</p>",
+      "example": "article",
+      "name": "type",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "be845896_f1ab_0137_599a_baaaa039edf6": {
+      "contentType": "zapi_schema__array",
+      "id": "be845896-f1ab-0137-599a-baaaa039edf6",
+      "description": "<p>A list of sitemap locations that the content item is in.</p>\n<p><strong>Note</strong>: Sitemap has been deprecated since April 2019. The {~sitemap_locations~} property is a legacy property.</p>",
+      "example": "",
+      "name": "sitemap_locations",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"basic_string_schema\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": []
+    },
+    "n65511815_0234_0167_426d_936d42212e82": {
+      "contentType": "zapi_schema__string",
+      "id": "65511815-0234-0167-426d-936d42212e82",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>ISO-8601 formatted date/time of last change to user-content of a content item.</p>\n<p><strong>Note</strong>: Moving content items through workflow doesn't affect the {~last_modified~} value.</p>",
+      "example": "2019-03-27T13:21:11.38Z",
+      "name": "last_modified",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "date-time",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n5e1fd39d_2961_01b5_36cc_0ff1978d8888": {
+      "contentType": "zapi_schema__string",
+      "id": "5e1fd39d-2961-01b5-36cc-0ff1978d8888",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "text",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n81f0f19d_a166_0187_279d_f94cb724f1c5": {
+      "contentType": "zapi_schema__string",
+      "id": "81f0f19d-a166-0187-279d-f94cb724f1c5",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Display name of the element</p>",
+      "example": "Meta keywords",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n6217febb_d56a_01ea_7ec5_47cf9484ff92": {
+      "contentType": "zapi_schema__string",
+      "id": "6217febb-d56a-01ea-7ec5-47cf9484ff92",
+      "nullable": [
+        "true"
+      ],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "value",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n2f1df771_df3a_0193_9f7d_5aafbfc77289": {
+      "contentType": "zapi_schema__string",
+      "id": "2f1df771-df3a-0193-9f7d-5aafbfc77289",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "image_id",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n66d49753_4173_01df_9f17_662c049edd91": {
+      "contentType": "zapi_schema__string",
+      "id": "66d49753-4173-01df-9f17-662c049edd91",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Used for the alt attribute of an &lt;img&gt; tag.</p>",
+      "example": "",
+      "name": "description",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n8ec68dd2_0758_01f9_c9f1_6c881ca989a1": {
+      "contentType": "zapi_schema__string",
+      "id": "8ec68dd2-0758-01f9-c9f1-6c881ca989a1",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Absolute URL for the image</p>",
+      "example": "",
+      "name": "url",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n3de8e416_cf35_0192_d7fe_edd3e5375717": {
+      "contentType": "zapi_schema__integer",
+      "id": "3de8e416-cf35-0192-d7fe-edd3e5375717",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "width",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "a7ff8167_ecb4_01fc_58a2_e33c1b7ab386": {
+      "contentType": "zapi_schema__integer",
+      "id": "a7ff8167-ecb4-01fc-58a2-e33c1b7ab386",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "height",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "n50d05ee1_1499_01d1_3601_d3428770372d": {
+      "contentType": "zapi_schema__string",
+      "id": "50d05ee1-1499-01d1-3601-d3428770372d",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Content type of the content item</p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "e15b315a_0487_01a3_485e_6afb191f85a0": {
+      "contentType": "zapi_schema__string",
+      "id": "e15b315a-0487-01a3-485e-6afb191f85a0",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the content item</p>",
+      "example": "",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n8dcd81b5_d9f7_0109_c079_592bae454564": {
+      "contentType": "zapi_schema__string",
+      "id": "8dcd81b5-d9f7-0109-c079-592bae454564",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>URL slug of the content item. If the item doesn't use a URL slug element, value of {~url_slug~} is empty string.</p>",
+      "example": "",
+      "name": "url_slug",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "rich_text_link_object": {
+      "contentType": "zapi_schema__object",
+      "id": "e2411f2f-534c-475e-b16e-5a405c2f50b2",
+      "description": "<p>The name of the object represents a content item ID, such as {~f4b3fc05-e988-4dae-9ac1-a94aba566474~}.</p>",
+      "example": "",
+      "name": "RichTextLink",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n50d05ee1_1499_01d1_3601_d3428770372d\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"e15b315a_0487_01a3_485e_6afb191f85a0\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8dcd81b5_d9f7_0109_c079_592bae454564\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,codename,url_slug"
+    },
+    "d0ebef8b_666a_0131_7d01_0c3e7a2e4388": {
+      "contentType": "zapi_schema__string",
+      "id": "d0ebef8b-666a-0131-7d01-0c3e7a2e4388",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "rich_text",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n819819a7_ccad_01c2_79df_88f3f358d714": {
+      "contentType": "zapi_schema__string",
+      "id": "819819a7-ccad-01c2-79df-88f3f358d714",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "Description",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n94455eb0_557c_01cd_58c5_26bb77cc6345": {
+      "contentType": "zapi_schema__object",
+      "id": "94455eb0-557c-01cd-58c5-26bb77cc6345",
+      "description": "<p>Each object in the images collection represents an image id, e.g., {~14mio~}.</p>",
+      "example": "",
+      "name": "images",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n2f1df771_df3a_0193_9f7d_5aafbfc77289\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n66d49753_4173_01df_9f17_662c049edd91\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8ec68dd2_0758_01f9_c9f1_6c881ca989a1\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n3de8e416_cf35_0192_d7fe_edd3e5375717\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"a7ff8167_ecb4_01fc_58a2_e33c1b7ab386\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "image_id,description,url"
+    },
+    "n6fd41e65_c66c_0146_98df_b6decc975691": {
+      "contentType": "zapi_schema__object",
+      "id": "6fd41e65-c66c-0146-98df-b6decc975691",
+      "description": "<p>Contains metadata for each link to a content item</p>",
+      "example": "",
+      "name": "links",
+      "additionalProperties": [
+        "rich_text_link_object"
+      ],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p><br></p>",
+      "required": ""
+    },
+    "n299aa40d_79a2_01b8_c5ef_7887bd6d2c0a": {
+      "contentType": "zapi_schema__array",
+      "id": "299aa40d-79a2-01b8-c5ef-7887bd6d2c0a",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "modular_content",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"basic_string_schema\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": [
+        "true"
+      ]
+    },
+    "n4888c598_5682_016d_6ee0_7b3fe27f0f30": {
+      "contentType": "zapi_schema__string",
+      "id": "4888c598-5682-016d-6ee0-7b3fe27f0f30",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>If the element does not contain any text, its value defaults to a single empty paragraph: {~&lt;p&gt;&lt;br&gt;&lt;/p&gt;~}.</p>",
+      "example": "",
+      "name": "value",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "c8992ccb_80d9_0119_0cc4_bbe573ec8f9a": {
+      "contentType": "zapi_schema__string",
+      "id": "c8992ccb-80d9-0119-0cc4-bbe573ec8f9a",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n88559300_d1ab_0163_740a_a09c661a5461": {
+      "contentType": "zapi_schema__string",
+      "id": "88559300-d1ab-0163-740a-a09c661a5461",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n20f1b2d1_d261_0190_e033_cbfcf4f95c09": {
+      "contentType": "zapi_schema__object",
+      "id": "20f1b2d1-d261-0190-e033-cbfcf4f95c09",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "MultipleChoiceOption",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"c8992ccb_80d9_0119_0cc4_bbe573ec8f9a\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n88559300_d1ab_0163_740a_a09c661a5461\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "name,codename"
+    },
+    "n13ab56aa_9d6e_01ee_204d_45e8b808da0e": {
+      "contentType": "zapi_schema__string",
+      "id": "13ab56aa-9d6e-01ee-204d-45e8b808da0e",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "multiple_choice",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n8c46a732_d72b_012e_f560_2206831b738b": {
+      "contentType": "zapi_schema__string",
+      "id": "8c46a732-d72b-012e-f560-2206831b738b",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n51f02688_9ba8_010e_0b7a_26974fce6abb": {
+      "contentType": "zapi_schema__array",
+      "id": "51f02688-9ba8-010e-0b7a-26974fce6abb",
+      "description": "<p>The order of the option objects matches the order of the options in the UI.</p>",
+      "example": "",
+      "name": "value",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n20f1b2d1_d261_0190_e033_cbfcf4f95c09\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": [
+        "true"
+      ]
+    },
+    "n287b3f81_4e93_01ef_8f64_15243db8b680": {
+      "contentType": "zapi_schema__string",
+      "id": "287b3f81-4e93-01ef-8f64-15243db8b680",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "number",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n2ab6aa7b_e634_01fd_5c02_0834677f898b": {
+      "contentType": "zapi_schema__string",
+      "id": "2ab6aa7b-e634-01fd-5c02-0834677f898b",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n30dbe39f_005e_0101_f779_699e2aa4288c": {
+      "contentType": "zapi_schema__number",
+      "id": "30dbe39f-005e-0101-f779-699e2aa4288c",
+      "nullable": [
+        "true"
+      ],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "value",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "format": [
+        "float"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "n241e343e_a8ad_019a_eb4b_ab2bbbb7d241": {
+      "contentType": "zapi_schema__string",
+      "id": "241e343e-a8ad-019a-eb4b-ab2bbbb7d241",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "date_time",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n8477229e_f081_019b_4b23_00f955173b49": {
+      "contentType": "zapi_schema__string",
+      "id": "8477229e-f081-019b-4b23-00f955173b49",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n66efeb9b_e806_0131_366d_cbbd1bd01d0a": {
+      "contentType": "zapi_schema__string",
+      "id": "66efeb9b-e806-0131-366d-cbbd1bd01d0a",
+      "nullable": [
+        "true"
+      ],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>ISO-8601 formatted string</p>",
+      "example": "",
+      "name": "value",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "date-time",
+      "maxLength": null,
+      "minLength": null
+    },
+    "aadc64ec_ae8f_0195_8172_8f12bb629bbd": {
+      "contentType": "zapi_schema__string",
+      "id": "aadc64ec-ae8f-0195-8172-8f12bb629bbd",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n0bba49d1_f7fe_019e_63e3_d0dd5c5d255d": {
+      "contentType": "zapi_schema__string",
+      "id": "0bba49d1-f7fe-019e-63e3-d0dd5c5d255d",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n7f51a0a5_20aa_0156_b0c0_7c71fd68c0ff": {
+      "contentType": "zapi_schema__integer",
+      "id": "7f51a0a5-20aa-0156-b0c0-7c71fd68c0ff",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "size",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "fc3b733b_ab8e_018f_c3a9_17b43239d2fd": {
+      "contentType": "zapi_schema__string",
+      "id": "fc3b733b-ab8e-018f-c3a9-17b43239d2fd",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "url",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n92ef070f_a98a_0171_52eb_b644664978be": {
+      "contentType": "zapi_schema__integer",
+      "id": "92ef070f-a98a-0171-52eb-b644664978be",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "width",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "n3c1b7401_a647_0125_17d8_c45daf22c2ae": {
+      "contentType": "zapi_schema__integer",
+      "id": "3c1b7401-a647-0125-17d8-c45daf22c2ae",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "height",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "n2e7882fc_650e_0126_3f09_cdbdac5f9d1a": {
+      "contentType": "zapi_schema__object",
+      "id": "2e7882fc-650e-0126-3f09-cdbdac5f9d1a",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "Asset",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"aadc64ec_ae8f_0195_8172_8f12bb629bbd\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n0bba49d1_f7fe_019e_63e3_d0dd5c5d255d\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n7f51a0a5_20aa_0156_b0c0_7c71fd68c0ff\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"fc3b733b_ab8e_018f_c3a9_17b43239d2fd\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n92ef070f_a98a_0171_52eb_b644664978be\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n3c1b7401_a647_0125_17d8_c45daf22c2ae\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "name,type,size,description,url,width,height"
+    },
+    "n3e7a5998_03d4_01a6_0c3d_e15ffdf48e5d": {
+      "contentType": "zapi_schema__string",
+      "id": "3e7a5998-03d4-01a6-0c3d-e15ffdf48e5d",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "asset",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "ed40e6a6_584a_0151_ae25_1c257d75e413": {
+      "contentType": "zapi_schema__string",
+      "id": "ed40e6a6-584a-0151-ae25-1c257d75e413",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n8a79a2ad_2122_01b1_4587_f83ac23192fd": {
+      "contentType": "zapi_schema__array",
+      "id": "8a79a2ad-2122-01b1-4587-f83ac23192fd",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "value",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n2e7882fc_650e_0126_3f09_cdbdac5f9d1a\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": []
+    },
+    "e0f4064d_c4b1_01de_b7a7_8edd6b7685b8": {
+      "contentType": "zapi_schema__string",
+      "id": "e0f4064d-c4b1-01de-b7a7-8edd6b7685b8",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "modular_content",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "c81c4fd8_a708_01c5_244c_d9957330f3f4": {
+      "contentType": "zapi_schema__string",
+      "id": "c81c4fd8-a708-01c5-244c-d9957330f3f4",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n2c51ca3f_cac8_018e_b336_8c8fbdb710e9": {
+      "contentType": "zapi_schema__array",
+      "id": "2c51ca3f-cac8-018e-b336-8c8fbdb710e9",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"basic_string_schema\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": [
+        "true"
+      ]
+    },
+    "n61a36697_5c27_0181_8710_01a5f5cee441": {
+      "contentType": "zapi_schema__string",
+      "id": "61a36697-5c27-0181-8710-01a5f5cee441",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "custom",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "cef9bf03_038c_0115_f64d_cf9da94081fa": {
+      "contentType": "zapi_schema__string",
+      "id": "cef9bf03-038c-0115-f64d-cf9da94081fa",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n6ca1fb2e_a2ed_0150_42c2_5b87765221ac": {
+      "contentType": "zapi_schema__string",
+      "id": "6ca1fb2e-a2ed-0150-42c2-5b87765221ac",
+      "nullable": [
+        "true"
+      ],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "value",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "d08ab1d6_d07e_0143_bca2_e39166bd8954": {
+      "contentType": "zapi_schema__string",
+      "id": "d08ab1d6-d07e-0143-bca2-e39166bd8954",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "b280b14e_5d59_01e2_8416_52e977179a5a": {
+      "contentType": "zapi_schema__string",
+      "id": "b280b14e-5d59-01e2-8416-52e977179a5a",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n867c76f6_a375_01b2_ca54_b86f1db34346": {
+      "contentType": "zapi_schema__object",
+      "id": "867c76f6-a375-01b2-ca54-b86f1db34346",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "TaxonomyGroup",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"d08ab1d6_d07e_0143_bca2_e39166bd8954\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"b280b14e_5d59_01e2_8416_52e977179a5a\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "name,codename"
+    },
+    "dfea85ce_c3f4_0102_5e55_16fdd782ee3f": {
+      "contentType": "zapi_schema__string",
+      "id": "dfea85ce-c3f4-0102-5e55-16fdd782ee3f",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "taxonomy",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n27b7c78c_edd8_0105_4ef6_e7d8a2f3d201": {
+      "contentType": "zapi_schema__string",
+      "id": "27b7c78c-edd8-0105-4ef6-e7d8a2f3d201",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n6e35639e_97e5_017c_f0dd_1e7a64845015": {
+      "contentType": "zapi_schema__string",
+      "id": "6e35639e-97e5-017c-f0dd-1e7a64845015",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "taxonomy_group",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n76613773_c3a6_0128_e64a_0dc7eab43fb4": {
+      "contentType": "zapi_schema__array",
+      "id": "76613773-c3a6-0128-e64a-0dc7eab43fb4",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "value",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n867c76f6_a375_01b2_ca54_b86f1db34346\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": []
+    },
+    "cd74b15d_e0d6_0119_adb0_ed717ea3ae3e": {
+      "contentType": "zapi_schema__string",
+      "id": "cd74b15d-e0d6-0119-adb0-ed717ea3ae3e",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "type",
+      "acceptedValues": "url_slug",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n4e9af55d_39f4_013e_eadf_7c6aee6232f3": {
+      "contentType": "zapi_schema__string",
+      "id": "4e9af55d-39f4-013e-eadf-7c6aee6232f3",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n3f1e6092_2cfd_010e_c182_91f1ce1ae48f": {
+      "contentType": "zapi_schema__string",
+      "id": "3f1e6092-2cfd-010e-c182-91f1ce1ae48f",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "value",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "text_element": {
+      "contentType": "zapi_schema__object",
+      "id": "a0b264ae-08e3-498c-a78f-4b5e2736d88f",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "Text",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n5e1fd39d_2961_01b5_36cc_0ff1978d8888\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n81f0f19d_a166_0187_279d_f94cb724f1c5\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6217febb_d56a_01ea_7ec5_47cf9484ff92\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "rich_text_element": {
+      "contentType": "zapi_schema__object",
+      "id": "f9fa7710-e97d-44cc-b43d-a3f348f5e636",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "RichText",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"d0ebef8b_666a_0131_7d01_0c3e7a2e4388\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n819819a7_ccad_01c2_79df_88f3f358d714\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n94455eb0_557c_01cd_58c5_26bb77cc6345\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6fd41e65_c66c_0146_98df_b6decc975691\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n299aa40d_79a2_01b8_c5ef_7887bd6d2c0a\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n4888c598_5682_016d_6ee0_7b3fe27f0f30\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,images,links,modular_content,value"
+    },
+    "multiple_choice_element": {
+      "contentType": "zapi_schema__object",
+      "id": "22f5c976-d49e-41d6-a898-13face1e6965",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "MultipleChoice",
+      "additionalProperties": [],
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n13ab56aa_9d6e_01ee_204d_45e8b808da0e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8c46a732_d72b_012e_f560_2206831b738b\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n51f02688_9ba8_010e_0b7a_26974fce6abb\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "number_element": {
+      "contentType": "zapi_schema__object",
+      "id": "3bd488b2-6fea-46b1-a57e-47d14c964c82",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "Number",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n287b3f81_4e93_01ef_8f64_15243db8b680\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n2ab6aa7b_e634_01fd_5c02_0834677f898b\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n30dbe39f_005e_0101_f779_699e2aa4288c\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "date___time_element": {
+      "contentType": "zapi_schema__object",
+      "id": "c34bf0fb-3f29-4e94-9e20-8997888b3d15",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "DateTime",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n241e343e_a8ad_019a_eb4b_ab2bbbb7d241\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8477229e_f081_019b_4b23_00f955173b49\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n66efeb9b_e806_0131_366d_cbbd1bd01d0a\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "asset_element": {
+      "contentType": "zapi_schema__object",
+      "id": "788b5081-1b24-47c8-bcd3-329758607241",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "Asset",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n3e7a5998_03d4_01a6_0c3d_e15ffdf48e5d\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ed40e6a6_584a_0151_ae25_1c257d75e413\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8a79a2ad_2122_01b1_4587_f83ac23192fd\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "linked_items_element": {
+      "contentType": "zapi_schema__object",
+      "id": "4cfaef50-1fbb-4780-9ad3-4b7b281746b6",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "LinkedItems",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"e0f4064d_c4b1_01de_b7a7_8edd6b7685b8\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"c81c4fd8_a708_01c5_244c_d9957330f3f4\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n2c51ca3f_cac8_018e_b336_8c8fbdb710e9\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "custom_element": {
+      "contentType": "zapi_schema__object",
+      "id": "bf3fc367-ac47-45fc-8a38-c25d3f423fac",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "CustomElement",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n61a36697_5c27_0181_8710_01a5f5cee441\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"cef9bf03_038c_0115_f64d_cf9da94081fa\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6ca1fb2e_a2ed_0150_42c2_5b87765221ac\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "taxonomy_element": {
+      "contentType": "zapi_schema__object",
+      "id": "fdeb66d1-82f9-49c7-ac9d-a8825280d987",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "Taxonomy",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"dfea85ce_c3f4_0102_5e55_16fdd782ee3f\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n27b7c78c_edd8_0105_4ef6_e7d8a2f3d201\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6e35639e_97e5_017c_f0dd_1e7a64845015\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n76613773_c3a6_0128_e64a_0dc7eab43fb4\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,taxonomy_group,value"
+    },
+    "url_slug_element": {
+      "contentType": "zapi_schema__object",
+      "id": "630cc9d5-e316-4190-a7a6-113195606852",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "UrlSlug",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"cd74b15d_e0d6_0119_adb0_ed717ea3ae3e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n4e9af55d_39f4_013e_eadf_7c6aee6232f3\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n3f1e6092_2cfd_010e_c182_91f1ce1ae48f\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "type,name,value"
+    },
+    "elements_object": {
+      "contentType": "zapi_schema__anyof",
+      "id": "2e2796ea-b835-4ac3-9176-8d00ec7bf61f",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "elements",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "schemas": [
+        "text_element",
+        "rich_text_element",
+        "multiple_choice_element",
+        "number_element",
+        "date___time_element",
+        "asset_element",
+        "linked_items_element",
+        "custom_element",
+        "taxonomy_element",
+        "url_slug_element"
+      ]
+    },
+    "c7c5e258_9dc3_018e_92fe_4f2667d29dd3": {
+      "contentType": "zapi_schema__object",
+      "id": "c7c5e258-9dc3-018e-92fe-4f2667d29dd3",
+      "description": "<p>System properties of the content item</p>",
+      "example": "",
+      "name": "system",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n043bc13c_c391_0116_9a26_ef73a36837e6\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"f25ae55b_b32f_0108_75dd_110a63e8bbcd\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n7bc5c917_c2b2_0181_211b_f6bcb157efe8\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ec13646a_1f2d_0144_0d58_2f0e7fa34819\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n04369c15_ba95_01da_37da_1af4b10cce5b\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"be845896_f1ab_0137_599a_baaaa039edf6\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n65511815_0234_0167_426d_936d42212e82\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "id,name,codename,language,type,sitemap_locations,last_modified"
+    },
+    "ec32f6e9_dce7_01e1_3f8b_e3030ecd640d": {
+      "contentType": "zapi_schema__object",
+      "id": "ec32f6e9-dce7-01e1-3f8b-e3030ecd640d",
+      "description": "<p><a data-item-id=\"ea9768d1-bd2f-4027-bb5e-5cd9c85ea360\" href=\"\">Content elements</a> in the content item.</p>\n<p><strong>Note</strong>: The order of the element objects might not match the content element order in the UI.</p>",
+      "example": "",
+      "name": "elements",
+      "additionalProperties": [
+        "elements_object"
+      ],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p><br></p>",
+      "required": ""
+    },
+    "content_item": {
+      "contentType": "zapi_schema__object",
+      "id": "ae1ebe1f-e723-4c64-81b6-61cd2cd3f3a2",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "ContentItem",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"c7c5e258_9dc3_018e_92fe_4f2667d29dd3\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ec32f6e9_dce7_01e1_3f8b_e3030ecd640d\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "system,elements"
+    },
+    "n75bcbe73_678c_01eb_5fc2_8ffbab85ba39": {
+      "contentType": "zapi_property_referencing_a_schema",
+      "id": "75bcbe73-678c-01eb-5fc2-8ffbab85ba39",
+      "name": "item",
+      "schema": [
+        "content_item"
+      ]
+    },
+    "b1528ffb_e3c5_0159_c830_6621bf89b95d": {
+      "contentType": "zapi_schema__object",
+      "id": "b1528ffb-e3c5-0159-c830-6621bf89b95d",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "modular_content",
+      "additionalProperties": [
+        "content_item"
+      ],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p><br></p>",
+      "required": ""
+    },
+    "n488f2b59_9c48_0150_ecfd_338d3f03b1df": {
+      "contentType": "zapi_schema__object",
+      "id": "488f2b59-9c48-0150-ecfd-338d3f03b1df",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n75bcbe73_678c_01eb_5fc2_8ffbab85ba39\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"b1528ffb_e3c5_0159_c830_6621bf89b95d\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "item,modular_content"
+    },
+    "c3a6e8a6_c1cf_01a6_2ffa_912a5f9746dd": {
+      "contentType": "zapi_schema__string",
+      "id": "c3a6e8a6-c1cf-01a6-2ffa-912a5f9746dd",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>An explanation of why the error occurred.</p>",
+      "example": "",
+      "name": "message",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n224049fb_905a_014e_2f99_70fb6e92b880": {
+      "contentType": "zapi_schema__string",
+      "id": "224049fb-905a-014e-2f99-70fb6e92b880",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>ID of the performed request.</p>",
+      "example": "",
+      "name": "request_id",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n241fbd59_29cb_01eb_ff6f_a68beacb3469": {
+      "contentType": "zapi_schema__integer",
+      "id": "241fbd59-29cb-01eb-ff6f-a68beacb3469",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Code of the returned error</p>",
+      "example": "",
+      "name": "error_code",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": 500,
+      "minimum": 100
+    },
+    "n34796a2c_0bb2_01fb_90bd_34fea348e4ac": {
+      "contentType": "zapi_schema__integer",
+      "id": "34796a2c-0bb2-01fb-90bd-34fea348e4ac",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "specific_code",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "error_object": {
+      "contentType": "zapi_schema__object",
+      "id": "6ee03125-8281-40ef-bcb7-c903bf7dfa20",
+      "description": "<p>Error response</p>",
+      "example": "",
+      "name": "Error",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"c3a6e8a6_c1cf_01a6_2ffa_912a5f9746dd\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n224049fb_905a_014e_2f99_70fb6e92b880\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n241fbd59_29cb_01eb_ff6f_a68beacb3469\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n34796a2c_0bb2_01fb_90bd_34fea348e4ac\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "message,request_id,error_code,specific_code"
+    },
+    "n339b3205_89a4_0143_70ca_da67989d0403": {
+      "contentType": "zapi_response",
+      "id": "339b3205-89a4-0143-70ca-da67989d0403",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>A single content item object.</p>",
+      "example": "{\n  \"item\": {\n    \"system\": {\n      \"id\": \"f4b3fc05-e988-4dae-9ac1-a94aba566474\",\n      \"name\": \"On Roasts\",\n      \"codename\": \"on_roasts\",\n      \"language\": \"default\",\n      \"type\": \"article\",\n      \"sitemap_locations\": [\n        \"articles\"\n      ],\n      \"last_modified\": \"2016-10-20T12:03:48.4628352Z\"\n    },\n    \"elements\": {\n      \"title\": {\n        \"type\": \"text\",\n        \"name\": \"Title\",\n        \"value\": \"On Roasts\"\n      },\n      \"summary\": {\n        \"type\": \"text\",\n        \"name\": \"Summary\",\n        \"value\": \"Roasting coffee beans can take from 6 to 13 minutes. Different roasting times produce different types of coffee, with varying concentration of caffeine and intensity of the original flavor.\"\n      },\n      \"post_date\": {\n        \"type\": \"date_time\",\n        \"name\": \"Post date\",\n        \"value\": \"2014-11-07T00:00:00Z\"\n      },\n      \"teaser_image\": {\n        \"type\": \"asset\",\n        \"name\": \"Teaser image\",\n        \"value\": [\n          {\n            \"name\": \"on-roasts-1080px.jpg\",\n            \"type\": \"image/jpeg\",\n            \"size\": 0,\n            \"description\": null,\n            \"url\": \"https://assets-us-01.kc-usercontent.com/5859c8b2-f64d-405f-a306-d65dd5b1da04/f6daed1f-3f3b-4036-a9c7-9519359b9601/on-roasts-1080px.jpg\"\n          }\n        ]\n      },\n      \"related_articles\": {\n        \"type\": \"modular_content\",\n        \"name\": \"Related articles\",\n        \"value\": [\n          \"coffee_processing_techniques\",\n          \"origins_of_arabica_bourbon\"\n        ]\n      }\n    }\n  },\n  \"modular_content\": {\n    # collection of related Content item objects (including component objects)\n  }\n}",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n488f2b59_9c48_0150_ecfd_338d3f03b1df\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "a207c92d_83d2_01f0_e997_542ed4a38f60": {
+      "contentType": "zapi_response",
+      "id": "a207c92d-83d2-01f0-e997-542ed4a38f60",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>The specified content item is not published or was deleted.</p>",
+      "example": "{\n  \"message\": \"The requested content item 'on_roasts' was not found.\",\n  \"request_id\": \"|657e8eba55d8bf4a9a5ad9074038cd2e.813e828d_\",\n  \"error_code\": 100,\n  \"specific_code\": 0\n}",
+      "headers": [],
+      "httpStatus": [
+        "404"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"error_object\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "order": {
+      "contentType": "zapi_parameter",
+      "id": "11e20596-92ee-43b0-a76b-d4a555681df6",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>Order of the retrieved content items. By default, the items are sorted alphabetically by their codenames from A to Z in descending order.</p>\n<p>To sort content items in the ascending order, add the {~order=&lt;attribute&gt;[asc]~} query parameter. Similarly, to sort in the descending order, you can use the [desc] modifier. You can sort by properties of both the {~system~} and {~elements}~ objects.</p>\n<p><strong>Examples</strong></p>\n<ul>\n  <li>Sort by date – {~order=system.last_modified[desc]~}</li>\n  <li>Sort by a content item name – {~order=system.name[asc]~}</li>\n  <li>Sort by an element value – {~order=elements.&lt;element_codename&gt;[asc]~}</li>\n</ul>",
+      "example": "elements.post_date[desc]",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "order",
+      "required": [],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "skip": {
+      "contentType": "zapi_parameter",
+      "id": "cced98ae-d582-4ffa-b5df-b69f7fc266d4",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>The number of items to skip when requesting a list of objects. If the {~skip~} parameter is not specified, the API returns the first page of results.</p>\n<p>You can combine the {~limit~} and {~skip~} parameters to specify page size and page number. For example, to set a page size to 10 and get the second page of results, you can use this combination {~limit=10&amp;limit=10~}.</p>",
+      "example": "10",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "skip",
+      "required": [],
+      "schema": [
+        "basic_integer_schema"
+      ],
+      "style": []
+    },
+    "limit_8cd54e2": {
+      "contentType": "zapi_parameter",
+      "id": "8cd54e29-4dc9-4114-b040-b4ac8ff40841",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>The number of items to retrieve in a single request. If the {~limit~} parameter is not specified, the API returns all items by default.</p>\n<p>If the limit is lower than the total number of items matching your query, the {~next_page~} property in the {~pagination~} object of the API response will contain a URL to the next page of results.</p>",
+      "example": "10",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "limit",
+      "required": [],
+      "schema": [
+        "basic_integer_schema"
+      ],
+      "style": []
+    },
+    "ff42d3fe_938a_0195_ef84_cba27d460536": {
+      "contentType": "zapi_schema__integer",
+      "id": "ff42d3fe-938a-0195-ef84-cba27d460536",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The number of objects skipped from the response. Reflects the value specified by the {~skip~} query parameter.</p>",
+      "example": "10",
+      "name": "skip",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": 0,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "f638f48f_c686_01e4_262e_1d478ca901c2": {
+      "contentType": "zapi_schema__integer",
+      "id": "f638f48f-c686-01e4-262e-1d478ca901c2",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The number of objects returned in the response. Reflects the value specified by the {~limit~} query parameter.</p>",
+      "example": "10",
+      "name": "limit",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "n7ec6482b_faa3_01fc_c09d_f4c663f3e34a": {
+      "contentType": "zapi_schema__integer",
+      "id": "7ec6482b-faa3-01fc-c09d-f4c663f3e34a",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The number of retrieved objects.</p>\n<p><strong>Note</strong>: If the {~limit~} and {~skip~} query parameters are not specified, the {~count}~ property reflects the total number of objects in the project.</p>",
+      "example": "10",
+      "name": "count",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": null,
+      "format": [
+        "int32"
+      ],
+      "maximum": null,
+      "minimum": null
+    },
+    "e443609c_b6bf_01e4_c22e_62d49bb01108": {
+      "contentType": "zapi_schema__string",
+      "id": "e443609c-b6bf-01e4-c22e-62d49bb01108",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>A URL to the next page of results.</p>",
+      "example": "",
+      "name": "next_page",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "pagination": {
+      "contentType": "zapi_schema__object",
+      "id": "5c4c9af9-495d-4a49-86b8-20d85e79bfca",
+      "description": "<p>Information about the current page of results</p>",
+      "example": "",
+      "name": "pagination",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ff42d3fe_938a_0195_ef84_cba27d460536\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"f638f48f_c686_01e4_262e_1d478ca901c2\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n7ec6482b_faa3_01fc_c09d_f4c663f3e34a\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"e443609c_b6bf_01e4_c22e_62d49bb01108\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "skip,limit,count,next_page"
+    },
+    "n0d284907_8625_01d4_8399_280cae2c654a": {
+      "contentType": "zapi_schema__array",
+      "id": "0d284907-8625-01d4-8399-280cae2c654a",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "items",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"content_item\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": [
+        "true"
+      ]
+    },
+    "a6be9b2b_718f_015a_fc50_f182e78f6884": {
+      "contentType": "zapi_schema__object",
+      "id": "a6be9b2b-718f-015a-fc50-f182e78f6884",
+      "description": "<p>A dictionary of components and linked items, see <a data-item-id=\"286dbb0e-f673-494f-abfd-3f39c7ec3446\" href=\"\">Linked content and components</a> to learn more.</p>",
+      "example": "",
+      "name": "modular_content",
+      "additionalProperties": [
+        "content_item"
+      ],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p><br></p>",
+      "required": ""
+    },
+    "d6c39c64_67fb_017e_9b24_041bd94f2f43": {
+      "contentType": "zapi_schema__object",
+      "id": "d6c39c64-67fb-017e-9b24-041bd94f2f43",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n0d284907_8625_01d4_8399_280cae2c654a\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"a6be9b2b_718f_015a_fc50_f182e78f6884\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"pagination\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "items,modular_content,pagination"
+    },
+    "n3657a2bd_15c0_01c4_e2fc_6795dbebd64e": {
+      "contentType": "zapi_response",
+      "id": "3657a2bd-15c0-01c4-e2fc-6795dbebd64e",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>A list of content items</p>",
+      "example": "{\n  \"items\": [\n    {\n      \"system\": {\n        \"id\": \"cf106f4e-30a4-42ef-b313-b8ea3fd3e5c5\",\n        \"name\": \"Coffee Beverages Explained\",\n        \"codename\": \"coffee_beverages_explained\",\n        \"language\": \"default\",\n        \"type\": \"article\",\n        \"sitemap_locations\": [\n          \"articles\"\n        ],\n        \"last_modified\": \"2017-04-04T13:40:00.1102334Z\"\n      },\n      \"elements\": {\n        \"title\": {\n          \"type\": \"text\",\n          \"name\": \"Title\",\n          \"value\": \"Coffee Beverages Explained\"\n        },\n        \"summary\": {\n          \"type\": \"text\",\n          \"name\": \"Summary\",\n          \"value\": \"Espresso and filtered coffee are the two main categories of coffee, based on the method of preparation. Learn about individual types of coffee that fall under these categories.\"\n        },\n        \"post_date\": {\n          \"type\": \"date_time\",\n          \"name\": \"Post date\",\n          \"value\": \"2014-11-18T00:00:00Z\"\n        },\n        \"teaser_image\": {\n          \"type\": \"asset\",\n          \"name\": \"Teaser image\",\n          \"value\": [\n            {\n              \"name\": \"coffee-beverages-explained-1080px.jpg\",\n              \"type\": \"image/jpeg\",\n              \"size\": 90895,\n              \"description\": null,\n              \"url\": \"https://assets-us-01.kc-usercontent.com/975bf280-fd91-488c-994c-2f04416e5ee3/e700596b-03b0-4cee-ac5c-9212762c027a/coffee-beverages-explained-1080px.jpg\"\n            }\n          ]\n        }\n      }\n    },\n    {\n      \"system\": {\n        \"id\": \"23f71096-fa89-4f59-a3f9-970e970944ec\",\n        \"name\": \"Donate with us\",\n        \"codename\": \"donate_with_us\",\n        \"language\": \"default\",\n        \"type\": \"article\",\n        \"sitemap_locations\": [\n          \"articles\"\n        ],\n        \"last_modified\": \"2017-04-04T13:40:29.970377Z\"\n      },\n      \"elements\": {\n        \"title\": {\n          \"type\": \"text\",\n          \"name\": \"Title\",\n          \"value\": \"Donate with us\"\n        },\n        \"summary\": {\n          \"type\": \"text\",\n          \"name\": \"Summary\",\n          \"value\": \"Dancing Goat regularly donates money to Children in Africa, a foundation helping children with food, accommodation, education, and other essentials. Donate with us and create a better world.\"\n        },\n        \"post_date\": {\n          \"type\": \"date_time\",\n          \"name\": \"Post date\",\n          \"value\": \"2014-11-12T00:00:00Z\"\n        },\n        \"teaser_image\": {\n          \"type\": \"asset\",\n          \"name\": \"Teaser image\",\n          \"value\": [\n            {\n              \"name\": \"donate-with-us-1080px.jpg\",\n              \"type\": \"image/jpeg\",\n              \"size\": 133239,\n              \"description\": null,\n              \"url\": \"https://assets-us-01.kc-usercontent.com/975bf280-fd91-488c-994c-2f04416e5ee3/9b86141d-b667-4c35-82b1-826bc151d72a/donate-with-us-1080px.jpg\"\n            }\n          ]\n        }\n      }\n    },\n    {\n      \"system\": {\n        \"id\": \"b2fea94c-73fd-42ec-a22f-f409878de187\",\n        \"name\": \"Origins of Arabica Bourbon\",\n        \"codename\": \"origins_of_arabica_bourbon\",\n        \"language\": \"default\",\n        \"type\": \"article\",\n        \"sitemap_locations\": [\n          \"articles\"\n        ],\n        \"last_modified\": \"2017-04-04T13:45:44.1533096Z\"\n      },\n      \"elements\": {\n        \"title\": {\n          \"type\": \"text\",\n          \"name\": \"Title\",\n          \"value\": \"Origins of Arabica Bourbon\"\n        },\n        \"summary\": {\n          \"type\": \"text\",\n          \"name\": \"Summary\",\n          \"value\": \"This one particular type of coffee, the Arabica Bourbon, is now sold only in Japan. It has been brought back to life by enthusiasts after being almost forgotten for nearly sixty years.\"\n        },\n        \"post_date\": {\n          \"type\": \"date_time\",\n          \"name\": \"Post date\",\n          \"value\": \"2014-11-11T00:00:00Z\"\n        },\n        \"teaser_image\": {\n          \"type\": \"asset\",\n          \"name\": \"Teaser image\",\n          \"value\": [\n            {\n              \"name\": \"origins-of-arabica-bourbon-1080px.jpg\",\n              \"type\": \"image/jpeg\",\n              \"size\": 132229,\n              \"description\": null,\n              \"url\": \"https://assets.kenticocloud.com:443/975bf280-fd91-488c-994c-2f04416e5ee3/1cfcb6c9-1fe6-4013-a0bb-b26f8ada2ebf/origins-of-arabica-bourbon-1080px.jpg\"\n            }\n          ]\n        }\n      }\n    }\n  ],\n  \"modular_content\": {},\n  \"pagination\": {\n    \"skip\": 0,\n    \"limit\": 3,\n    \"count\": 3,\n    \"next_page\": \"https://deliver.kenticocloud.com/975bf280-fd91-488c-994c-2f04416e5ee3/items?system.type=article&elements=title%2csummary%2cpost_date%2cteaser_image&order=elements.post_date%5bdesc%5d&depth=0&limit=3&skip=3\"\n  }\n}",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"d6c39c64_67fb_017e_9b24_041bd94f2f43\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "n34053cb6_2248_01b9_71b4_019eaaa389fb": {
+      "contentType": "callout",
+      "id": "34053cb6-2248-01b9-71b4-019eaaa389fb",
+      "content": "<p><strong>Filtering content items</strong></p>\n<p>Using the filtering parameters and operators, you can retrieve only a specific set of content items, such as, items tagged with a specific term, items of a specific type, items modified in the last three days. Learn more about the parameters and operators in <a data-item-id=\"b6cf1d73-471a-4f1e-b0a9-f0e041e2d905\" href=\"\">filtering content</a>.&nbsp;</p>",
+      "type": [
+        "Tip"
+      ]
+    },
+    "type_codename": {
+      "contentType": "zapi_parameter",
+      "id": "81c3ae1b-5054-4b7e-b896-0c2a3de1b15c",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>The codename of a specific content type.</p>",
+      "example": "article",
+      "explode": [],
+      "location": [
+        "path"
+      ],
+      "name": "type_codename",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "n6ce5d58b_48ca_013f_e09a_ddb613926947": {
+      "contentType": "zapi_schema__string",
+      "id": "6ce5d58b-48ca-013f-e09a-ddb613926947",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Unique internal identifier of the content type</p>",
+      "example": "b2c14f2c-6467-460b-a70b-bca17972a33a",
+      "name": "id",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "uuid",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n2cade906_1457_018e_7704_f42a707f3471": {
+      "contentType": "zapi_schema__string",
+      "id": "2cade906-1457-018e-7704-f42a707f3471",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Display name of the content type</p>",
+      "example": "About us",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n08d30341_9167_0162_a788_351865251b8c": {
+      "contentType": "zapi_schema__string",
+      "id": "08d30341-9167-0162-a788-351865251b8c",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the content type, generated from the content types's {~name~}.</p>",
+      "example": "about_us",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "d5219c26_c891_01bb_7dc2_152875475f99": {
+      "contentType": "zapi_schema__string",
+      "id": "d5219c26-c891-01bb-7dc2-152875475f99",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><a href=\"https://en.wikipedia.org/wiki/ISO_8601\" data-new-window=\"true\" title=\"International standard covering the exchange of date- and time-related data\" target=\"_blank\" rel=\"noopener noreferrer\">ISO-8601</a> formatted date/time of the last content type change</p>",
+      "example": "2016-10-20T12:03:17.4685693Z",
+      "name": "last_modified",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "date-time",
+      "maxLength": null,
+      "minLength": null
+    },
+    "c9f89168_a4c9_0182_4d89_373e4d9622e8": {
+      "contentType": "zapi_schema__object",
+      "id": "c9f89168-a4c9-0182-4d89-373e4d9622e8",
+      "description": "<p>System properties of the content type</p>",
+      "example": "",
+      "name": "system",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6ce5d58b_48ca_013f_e09a_ddb613926947\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n2cade906_1457_018e_7704_f42a707f3471\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n08d30341_9167_0162_a788_351865251b8c\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"d5219c26_c891_01bb_7dc2_152875475f99\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "id,name,codename,last_modified"
+    },
+    "e7549085_1471_0157_8b36_056b3cd2eb0d": {
+      "contentType": "zapi_schema__object",
+      "id": "e7549085-1471-0157-8b36-056b3cd2eb0d",
+      "description": "<p><a data-item-id=\"ea9768d1-bd2f-4027-bb5e-5cd9c85ea360\" href=\"\">Content elements</a> in the content type</p>\n<p><strong>Note</strong>: The order of the elements in the API response might not match their order in the UI.</p>",
+      "example": "",
+      "name": "elements",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p><br></p>",
+      "required": ""
+    },
+    "content_type": {
+      "contentType": "zapi_schema__object",
+      "id": "5cae9dbe-aeda-463c-a456-86f6c6ca61bb",
+      "description": "<p>A content type object</p>",
+      "example": "",
+      "name": "ContentType",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"c9f89168_a4c9_0182_4d89_373e4d9622e8\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"e7549085_1471_0157_8b36_056b3cd2eb0d\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "system,elements"
+    },
+    "n1ea2894a_a72c_017e_d385_94389abd9406": {
+      "contentType": "zapi_response",
+      "id": "1ea2894a-a72c-017e-d385-94389abd9406",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>A content type object</p>",
+      "example": "https://deliver.kenticocloud.com/975bf280-fd91-488c-994c-2f04416e5ee3/types/article",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"content_type\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "n80b37bfd_c599_0122_8120_86e1683f1fa7": {
+      "contentType": "zapi_response",
+      "id": "80b37bfd-c599-0122-8120-86e1683f1fa7",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>The specified content type was not found</p>",
+      "example": "https://deliver.kenticocloud.com/975bf280-fd91-488c-994c-2f04416e5ee3/types/articles",
+      "headers": [],
+      "httpStatus": [
+        "404"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"error_object\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "ca3f1a69_70d9_01b0_a0f7_cf911ebd9f1e": {
+      "contentType": "zapi_schema__array",
+      "id": "ca3f1a69-70d9-01b0-a0f7-cf911ebd9f1e",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "types",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"content_type\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": [
+        "true"
+      ]
+    },
+    "ba6f99fe_cc0e_0138_d74e_e59d03b4d208": {
+      "contentType": "zapi_schema__object",
+      "id": "ba6f99fe-cc0e-0138-d74e-e59d03b4d208",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ca3f1a69_70d9_01b0_a0f7_cf911ebd9f1e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"pagination\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "types,pagination"
+    },
+    "fd944755_616c_0119_e7f3_2ea4992a8ce0": {
+      "contentType": "zapi_response",
+      "id": "fd944755-616c-0119-e7f3-2ea4992a8ce0",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>A list of content types</p>",
+      "example": "{\n  \"types\": [\n    {\n      \"system\": {\n        \"id\": \"b2c14f2c-6467-460b-a70b-bca17972a33a\",\n        \"name\": \"About us\",\n        \"codename\": \"about_us\",\n        \"last_modified\": \"2017-08-02T07:33:28.2997578Z\"\n      },\n      \"elements\": {\n        \"facts\": {\n          \"type\": \"modular_content\",\n          \"name\": \"Facts\"\n        },\n        \"url_pattern\": {\n          \"type\": \"url_slug\",\n          \"name\": \"URL pattern\"\n        }\n      }\n    },\n    {\n      \"system\": {\n        \"id\": \"d9748663-f567-4c51-a922-c24a1d6b935a\",\n        \"name\": \"Accessory\",\n        \"codename\": \"accessory\",\n        \"last_modified\": \"2017-08-02T07:33:39.3620325Z\"\n      },\n      \"elements\": {\n        \"product_name\": {\n          \"type\": \"text\",\n          \"name\": \"Product name\"\n        },\n        \"price\": {\n          \"type\": \"number\",\n          \"name\": \"Price\"\n        },\n        \"image\": {\n          \"type\": \"asset\",\n          \"name\": \"Image\"\n        },\n        \"manufacturer\": {\n          \"type\": \"text\",\n          \"name\": \"Manufacturer\"\n        },\n        \"product_status\": {\n          \"type\": \"taxonomy\",\n          \"name\": \"Product status\",\n          \"taxonomy_group\": \"product_status\"\n        },\n        \"short_description\": {\n          \"type\": \"rich_text\",\n          \"name\": \"Short description\"\n        },\n        \"long_description\": {\n          \"type\": \"rich_text\",\n          \"name\": \"Long description\"\n        },\n        \"url_pattern\": {\n          \"type\": \"url_slug\",\n          \"name\": \"URL pattern\"\n        }\n      }\n    },\n    {\n      \"system\": {\n        \"id\": \"b7aa4a53-d9b1-48cf-b7a6-ed0b182c4b89\",\n        \"name\": \"Article\",\n        \"codename\": \"article\",\n        \"last_modified\": \"2017-08-02T07:33:19.8599559Z\"\n      },\n      \"elements\": {\n        \"personas\": {\n          \"type\": \"taxonomy\",\n          \"name\": \"Personas\",\n          \"taxonomy_group\": \"personas\"\n        },\n        \"title\": {\n          \"type\": \"text\",\n          \"name\": \"Title\"\n        },\n        \"teaser_image\": {\n          \"type\": \"asset\",\n          \"name\": \"Teaser image\"\n        },\n        \"post_date\": {\n          \"type\": \"date_time\",\n          \"name\": \"Post date\"\n        },\n        \"summary\": {\n          \"type\": \"text\",\n          \"name\": \"Summary\"\n        },\n        \"body_copy\": {\n          \"type\": \"rich_text\",\n          \"name\": \"Body Copy\"\n        },\n        \"related_articles\": {\n          \"type\": \"modular_content\",\n          \"name\": \"Related articles\"\n        },\n        \"meta_keywords\": {\n          \"type\": \"text\",\n          \"name\": \"Meta keywords\"\n        },\n        \"meta_description\": {\n          \"type\": \"text\",\n          \"name\": \"Meta description\"\n        },\n        \"url_pattern\": {\n          \"type\": \"url_slug\",\n          \"name\": \"URL pattern\"\n        }\n      }\n    }\n  ],\n  \"pagination\": {\n    \"skip\": 0,\n    \"limit\": 3,\n    \"count\": 3,\n    \"next_page\": \"https://deliver.kenticocloud.com/975bf280-fd91-488c-994c-2f04416e5ee3/types?limit=3&skip=3\"\n  }\n}",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ba6f99fe_cc0e_0138_d74e_e59d03b4d208\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "taxonomy_group_codename": {
+      "contentType": "zapi_parameter",
+      "id": "3096da42-bb89-4824-a846-7c104fef8698",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "deprecated": [],
+      "description": "<p>The codename of a specific taxonomy group</p>",
+      "example": "personas",
+      "explode": [],
+      "location": [
+        "path"
+      ],
+      "name": "taxonomy_group_codename",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "n6875a7c8_d385_0190_6870_de9eae5ee413": {
+      "contentType": "zapi_schema__string",
+      "id": "6875a7c8-d385-0190-6870-de9eae5ee413",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Unique internal identifier of the taxonomy group</p>",
+      "example": "f30c7f72-e9ab-8832-2a57-62944a038809",
+      "name": "id",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "uuid",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n7dbe9794_2095_0135_f6f0_76fe3cb98759": {
+      "contentType": "zapi_schema__string",
+      "id": "7dbe9794-2095-0135-f6f0-76fe3cb98759",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Display name of the taxonomy group</p>",
+      "example": "Personas",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n4b0a61fc_2534_01e8_83fd_2b705b65232e": {
+      "contentType": "zapi_schema__string",
+      "id": "4b0a61fc-2534-01e8-83fd-2b705b65232e",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the taxonomy group</p>",
+      "example": "personas",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n2d9fceeb_6d2b_01e2_e624_b1f15542a80a": {
+      "contentType": "zapi_schema__string",
+      "id": "2d9fceeb-6d2b-01e2-e624-b1f15542a80a",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><a href=\"https://en.wikipedia.org/wiki/ISO_8601\" data-new-window=\"true\" title=\"International standard covering the exchange of date- and time-related data\" target=\"_blank\" rel=\"noopener noreferrer\">ISO-8601</a> formatted date/time of the last taxonomy group change</p>",
+      "example": "2017-08-31T09:41:06.520241Z",
+      "name": "last_modified",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "date-time",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n82647955_cdd8_01fb_cb59_f710d0182d5e": {
+      "contentType": "zapi_schema__string",
+      "id": "82647955-cdd8-01fb-cb59-f710d0182d5e",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Display name of the taxonomy term</p>",
+      "example": "Coffee expert",
+      "name": "name",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n8f56eab6_452f_01a5_cf79_5dce720d1b9e": {
+      "contentType": "zapi_schema__string",
+      "id": "8f56eab6-452f-01a5-cf79-5dce720d1b9e",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Codename of the taxonomy term</p>",
+      "example": "coffee_expert",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n6752d10e_4532_010a_61bb_7431b182601c": {
+      "contentType": "zapi_schema__array",
+      "id": "6752d10e-4532-010a-61bb-7431b182601c",
+      "description": "<p><br></p>",
+      "example": "Taxonomically descendant terms",
+      "name": "terms",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p><br></p>",
+      "uniqueItems": []
+    },
+    "taxonomy_term": {
+      "contentType": "zapi_schema__object",
+      "id": "c954e17a-e6ab-420e-a11d-ae69b7336609",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "TaxonomyTerm",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n82647955_cdd8_01fb_cb59_f710d0182d5e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8f56eab6_452f_01a5_cf79_5dce720d1b9e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6752d10e_4532_010a_61bb_7431b182601c\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "name,codename,terms"
+    },
+    "de4a0c0f_9658_01dd_d725_e1aa8c1887f1": {
+      "contentType": "zapi_schema__object",
+      "id": "de4a0c0f-9658-01dd-d725-e1aa8c1887f1",
+      "description": "<p>System properties of the taxonomy group</p>",
+      "example": "",
+      "name": "system",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6875a7c8_d385_0190_6870_de9eae5ee413\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n7dbe9794_2095_0135_f6f0_76fe3cb98759\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n4b0a61fc_2534_01e8_83fd_2b705b65232e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n2d9fceeb_6d2b_01e2_e624_b1f15542a80a\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "id,name,codename,last_modified"
+    },
+    "bfaae9dd_6dbd_013a_6b6a_0116cf955fda": {
+      "contentType": "zapi_schema__array",
+      "id": "bfaae9dd-6dbd-013a-6b6a-0116cf955fda",
+      "description": "<p>A list of taxonomy terms</p>",
+      "example": "",
+      "name": "terms",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"taxonomy_term\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": []
+    },
+    "taxonomy_group": {
+      "contentType": "zapi_schema__object",
+      "id": "75dbb99e-9f0c-424e-acd4-9a1a813714f9",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "TaxonomyGroup",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"de4a0c0f_9658_01dd_d725_e1aa8c1887f1\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"bfaae9dd_6dbd_013a_6b6a_0116cf955fda\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "system,terms"
+    },
+    "aa05497b_b482_012a_0a83_b1dadc71927e": {
+      "contentType": "zapi_response",
+      "id": "aa05497b-b482-012a-0a83-b1dadc71927e",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>A taxonomy group object</p>",
+      "example": "https://deliver.kenticocloud.com/758a2067-bd67-00de-213a-e0a3aa2bd865/taxonomies/personas",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"taxonomy_group\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "cbbfafa2_1ce3_0116_6ac7_d69a0268f4a9": {
+      "contentType": "zapi_response",
+      "id": "cbbfafa2-1ce3-0116-6ac7-d69a0268f4a9",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>The specified taxonomy group was not found</p>",
+      "example": "https://deliver.kenticocloud.com/758a2067-bd67-00de-213a-e0a3aa2bd865/taxonomies/persona",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"error_object\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "fa3f9f3b_4834_0168_7ac7_52c9c2a16f97": {
+      "contentType": "zapi_schema__array",
+      "id": "fa3f9f3b-4834-0168-7ac7-52c9c2a16f97",
+      "description": "<p>A list of taxonomy groups</p>",
+      "example": "",
+      "name": "taxonomies",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"taxonomy_group\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": [
+        "true"
+      ]
+    },
+    "n38154458_e7a6_019b_1911_958dfe247f65": {
+      "contentType": "zapi_schema__object",
+      "id": "38154458-e7a6-019b-1911-958dfe247f65",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "additionalProperties": [],
+      "apiReference": [
+        "Delivery API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"fa3f9f3b_4834_0168_7ac7_52c9c2a16f97\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"pagination\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": "taxonomies,pagination"
+    },
+    "n8c366ba7_f32a_0149_88a3_959aec14b010": {
+      "contentType": "zapi_response",
+      "id": "8c366ba7-f32a-0149-88a3-959aec14b010",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "description": "<p>A list of taxonomy groups</p>",
+      "example": "",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n38154458_e7a6_019b_1911_958dfe247f65\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "view_a_content_item": {
+      "contentType": "zapi_path_operation",
+      "id": "419ae032-ad24-4990-89a7-2f13ba7c9beb",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "category": [
+        "content_items"
+      ],
+      "codeSamples": [],
+      "deprecated": [],
+      "description": "<p>Retrieve a specific content item by specifying its codename.</p>",
+      "name": "View a content item",
+      "parameters": [
+        "project_id",
+        "item_codename",
+        "language",
+        "elements",
+        "depth",
+        "x_kc_wait_for_loading_new_content"
+      ],
+      "path": "/{project_id}/item/{item_codename}",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n339b3205_89a4_0143_70ca_da67989d0403\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"a207c92d_83d2_01f0_e997_542ed4a38f60\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "view-a-content-item"
+    },
+    "list_content_items": {
+      "contentType": "zapi_path_operation",
+      "id": "4fafdf10-32c6-4020-a91a-cf1f835f8107",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "category": [
+        "content_items"
+      ],
+      "codeSamples": [],
+      "deprecated": [],
+      "description": "<p>Retrieve a paginated list of content items in your project. By default, the API returns an unfiltered paginated list of content items that is ordered alphabetically by codename. You can change the order by specifying the {~order~} query parameter. You can customize pagination by using the {~skip~} and {~limit~} query parameters.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n34053cb6_2248_01b9_71b4_019eaaa389fb\" class=\"kc-linked-item-wrapper\"></p>",
+      "name": "List content items",
+      "parameters": [
+        "project_id",
+        "language",
+        "elements",
+        "order",
+        "depth",
+        "skip",
+        "limit_8cd54e2",
+        "x_kc_wait_for_loading_new_content"
+      ],
+      "path": "/{project_id}/items",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n3657a2bd_15c0_01c4_e2fc_6795dbebd64e\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "list-content-items"
+    },
+    "view_a_content_type": {
+      "contentType": "zapi_path_operation",
+      "id": "384b00d0-bf02-4221-bffb-a02dbbe9f9ed",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "category": [
+        "content_types"
+      ],
+      "codeSamples": [],
+      "deprecated": [],
+      "description": "<p>Retrieve a specific content type from your project specified by codename.</p>",
+      "name": "View a content type",
+      "parameters": [
+        "project_id",
+        "type_codename",
+        "x_kc_wait_for_loading_new_content"
+      ],
+      "path": "/{project_id]/types/{type_codename}",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n1ea2894a_a72c_017e_d385_94389abd9406\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n80b37bfd_c599_0122_8120_86e1683f1fa7\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "view-a-content-type"
+    },
+    "list_content_types": {
+      "contentType": "zapi_path_operation",
+      "id": "f334b2b2-04e3-42bf-8812-c27cbac3ebc6",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "category": [
+        "content_types"
+      ],
+      "codeSamples": [],
+      "deprecated": [],
+      "description": "<p>Retrieve a paginated list of content types in your project. By default, the API returns all content types ordered alphabetically by codename. You can customize pagination by using the {~skip~} and {~limit~} query parameters.</p>",
+      "name": "List content types",
+      "parameters": [
+        "project_id",
+        "skip",
+        "limit_8cd54e2",
+        "x_kc_wait_for_loading_new_content"
+      ],
+      "path": "/{project_id}/types",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"fd944755_616c_0119_e7f3_2ea4992a8ce0\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "list-content-types"
+    },
+    "view_a_taxonomy_group": {
+      "contentType": "zapi_path_operation",
+      "id": "58e62a8b-1953-419e-bcb7-d2b54430b3d2",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "category": [
+        "taxonomy_groups"
+      ],
+      "codeSamples": [],
+      "deprecated": [],
+      "description": "<p>Retrieve a specific taxonomy group specified by codename.</p>",
+      "name": "View a taxonomy group",
+      "parameters": [
+        "project_id",
+        "taxonomy_group_codename",
+        "x_kc_wait_for_loading_new_content"
+      ],
+      "path": "/{project_id}/taxonomies/{taxonomy_group_codename}",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"aa05497b_b482_012a_0a83_b1dadc71927e\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"cbbfafa2_1ce3_0116_6ac7_d69a0268f4a9\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "view-a-taxonomy-group"
+    },
+    "list_taxonomy_groups": {
+      "contentType": "zapi_path_operation",
+      "id": "1908b24f-fe3a-478b-b57b-28985663ea74",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "category": [
+        "taxonomy_groups"
+      ],
+      "codeSamples": [],
+      "deprecated": [],
+      "description": "<p>Retrieve a paginated list of taxonomy groups in your project. By default, the API returns all taxonomy groups ordered alphabetically by codename. You can customize pagination by using the {~skip~} and {~limit~} query parameters.</p>",
+      "name": "List taxonomy groups",
+      "parameters": [
+        "project_id",
+        "skip",
+        "limit_8cd54e2",
+        "x_kc_wait_for_loading_new_content"
+      ],
+      "path": "/{project_id}/taxonomies",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8c366ba7_f32a_0149_88a3_959aec14b010\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "list-taxonomy-groups"
+    },
+    "bearer_authentication": {
+      "contentType": "zapi_security_scheme",
+      "id": "31451e2f-10b8-44ce-a491-7c37a9d0b5ff",
+      "apiKeyLocation": [],
+      "apiKeyName": "",
+      "apiReference": [
+        "Recommendation API",
+        "Delivery API"
+      ],
+      "bearerFormat": "Bearer <YOUR_API_KEY>",
+      "description": "<p>API key to authorize requests to the API. If you don't have an API key for the API yet, get yours in <a href=\"https://app.kenticocloud.com/\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">Kentico Cloud</a> &gt; Project settings &gt; API keys.</p>",
+      "name": "Bearer",
+      "scheme": "bearer",
+      "type": [
+        "http"
+      ]
+    },
+    "n607dd188_8849_0177_5ff8_487f2d71ce9f": {
+      "contentType": "zapi_server",
+      "id": "607dd188-8849-0177-5ff8-487f2d71ce9f",
+      "description": "Delivery API",
+      "url": "https://deliver.kenticocloud.com"
+    },
+    "d1581862_4f14_0193_d56c_44485f2aa6b1": {
+      "contentType": "zapi_server",
+      "id": "d1581862-4f14-0193-d56c-44485f2aa6b1",
+      "description": "Delivery Preview API",
+      "url": "https://preview-deliver.kenticocloud.com"
+    },
+    "n76eefb20_e124_01d3_2878_3fe4edc1f1a9": {
+      "contentType": "callout",
+      "id": "76eefb20-e124-01d3-2878-3fe4edc1f1a9",
+      "content": "<p><strong>API requests limits</strong></p>\n<p>Requests made to the Delivery API count towards the overall API Calls limit set in our <a href=\"https://kenticocloud.com/pricing/fup\">Fair Use Policy</a>.</p>\n<p>This does NOT apply to Delivery Preview API calls to preview unpublished content.</p>",
+      "type": [
+        "Note"
+      ]
+    },
+    "delivery_api": {
+      "contentType": "zapi_specification",
+      "id": "1db12301-a138-44bb-a06a-bc3e655c098a",
+      "apiReference": [
+        "Delivery API"
+      ],
+      "categories": [
+        "secure_access",
+        "revoking_api_keys",
+        "filtering_content",
+        "projection",
+        "linked_content_and_components",
+        "content_items",
+        "content_elements",
+        "content_types",
+        "taxonomy_groups"
+      ],
+      "contact": [],
+      "description": "<p>The Delivery API is a read-only REST API that serves published content from your Kentico Cloud projects.</p>\n<p>Use the API to deliver large amounts of content to your website or app. The content is cached on the CDN level, which makes it quickly available from wherever you are. The Delivery API provides <a href=\"https://developer.kenticocloud.com/reference#content-filtering\">content filtering</a> options that allow you to retrieve only the parts of the content you need.</p>\n<p>All requests to the API must be made securely with HTTPS with <a href=\"https://github.com/Kentico/delivery-sdk-net/wiki/Fixing-error:-Could-not-create-SSL-TLS-secure-channel\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">TLS 1.2</a>.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n76eefb20_e124_01d3_2878_3fe4edc1f1a9\" class=\"kc-linked-item-wrapper\"></p>\n<h2>Production vs. Preview</h2>\n<p>You can work with the Delivery API in two ways – either retrieve published versions of content items or preview their yet unpublished versions. In both cases, you use the same methods to request data but with a different base URL.</p>\n<p>Retrieve <strong>published</strong> content items from your project using the <strong>production</strong> URL:<br>\n{~https://deliver.kenticocloud.com/&lt;YOUR_PROJECT_ID&gt;/items~}</p>\n<p><strong>Note</strong>: To protect your published content, use the Delivery API with <a data-item-id=\"961f2179-e62c-4927-a7ad-e270d55fb61f\" href=\"\">secure access</a> enabled.</p>\n<p>Preview <strong>unpublished</strong> content items from your project using the <strong>preview</strong> URL:<br>\n{~https://preview-deliver.kenticocloud.com/&lt;YOUR_PROJECT_ID&gt;/items~}</p>\n<p>If you want to preview unpublished content in your project, you need to <a href=\"https://developer.kenticocloud.com/reference#authentication\">authorize your request</a>.</p>\n<p>// code samples: delivery_api_get_item_preview</p>\n<p>For the Delivery Preview API, you can use two concurrent API keys, Primary and Secondary. For more details on how to work with the keys, see <a data-item-id=\"c62f9339-3ba4-4a02-98a3-f4920cb591be\" href=\"\">Previewing unpublished content</a>.</p>",
+      "license": [],
+      "pathOperations": [
+        "view_a_content_item",
+        "list_content_items",
+        "view_a_content_type",
+        "list_content_types",
+        "view_a_taxonomy_group",
+        "list_taxonomy_groups"
+      ],
+      "security": [
+        "bearer_authentication"
+      ],
+      "servers": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n607dd188_8849_0177_5ff8_487f2d71ce9f\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"d1581862_4f14_0193_d56c_44485f2aa6b1\" class=\"kc-linked-item-wrapper\"></p>",
+      "termsOfService": "",
+      "title": "Delivery API",
+      "url": "delivery-api",
+      "version": "1"
+    }
+  },
+  "operation": "UPDATE",
+  "zapiSpecificationCodename": "delivery_api"
+}
