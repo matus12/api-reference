@@ -1,1 +1,736 @@
-"abc"
+{
+  "items": {
+    "recommended_items": {
+      "contentType": "zapi__category",
+      "id": "53776584-37cf-4ede-b356-d83998b7d79a",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "description": "<p>Learn about recommending content to your visitors in <a data-item-id=\"178360b9-4a33-43d2-aecf-52117ab4c5be\" href=\"\">Personalizing content with smart recommendations</a>.</p>",
+      "name": "Recommended items",
+      "url": "recommended-items"
+    },
+    "tracking": {
+      "contentType": "zapi__category",
+      "id": "ec932ff8-7cd0-4497-b417-d62fae391f32",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "description": "<p>Requesting a <a data-item-id=\"53776584-37cf-4ede-b356-d83998b7d79a\" href=\"\">recommendation</a> will track a default interaction between the visitor and content (a visit), but you can also log visitor–content interactions yourself. For more details, see <a href=\"http://tutorials/develop-apps/recommend-content/personalizing-content-with-smart-recommendations#a-tracking-events--optional-\">Tracking events</a>.</p>",
+      "name": "Tracking",
+      "url": "tracking"
+    },
+    "basic_string_schema": {
+      "contentType": "zapi_schema__string",
+      "id": "35df2018-db03-4b9a-813a-1d1929fbb6c5",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API",
+        "Delivery API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "basic_integer_schema": {
+      "contentType": "zapi_schema__integer",
+      "id": "4ae87aa1-6d1d-4e94-afe0-4453c8975a14",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": null,
+      "format": [],
+      "maximum": null,
+      "minimum": null
+    },
+    "basic_boolean_schema": {
+      "contentType": "zapi_schema__boolean",
+      "id": "639682f3-2d9c-43f3-955c-25d13f5edd57",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "apiReference": [
+        "Recommendation API"
+      ]
+    },
+    "visitid": {
+      "contentType": "zapi_parameter",
+      "id": "184d2884-1e1c-49c5-9e0d-d1470c6b12fe",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>The ID of the current user.</p>",
+      "example": "visitor01",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "visitId",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "currentitemid": {
+      "contentType": "zapi_parameter",
+      "id": "59d858ee-6f49-47a9-a3a6-ddc399896366",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>The codename of the currently visited content item.</p>",
+      "example": "item_codename_0",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "currentItemId",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "limit": {
+      "contentType": "zapi_parameter",
+      "id": "ba53b1a7-125c-4ee4-8619-c7df4e8fa747",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>How many recommended content items should be returned.</p>",
+      "example": "3",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "limit",
+      "required": [],
+      "schema": [
+        "basic_integer_schema"
+      ],
+      "style": []
+    },
+    "contenttypename": {
+      "contentType": "zapi_parameter",
+      "id": "e5da9889-8960-467c-9358-a85724fe2630",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>What content type should be returned.</p>",
+      "example": "blog",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "contentTypeName",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "filterquery": {
+      "contentType": "zapi_parameter",
+      "id": "220283f3-8f4a-43eb-a423-b1acbb150e0e",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>A filter query in ReQL.</p>",
+      "example": "",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "filterQuery",
+      "required": [],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "boosterquery": {
+      "contentType": "zapi_parameter",
+      "id": "f25875ae-a5a9-4e69-a0f5-67ef69ef32e7",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>A booster query in ReQL.</p>",
+      "example": "",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "boosterQuery",
+      "required": [],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "sourceapp": {
+      "contentType": "zapi_parameter",
+      "id": "c19fd8cb-9198-496f-931c-92d75000195e",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>The name of the source application.</p>",
+      "example": "",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "sourceApp",
+      "required": [],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "separatetracking": {
+      "contentType": "zapi_parameter",
+      "id": "409914a4-605d-4cc9-acdc-39a77b665d6d",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>Whether the request will be using the tracking api to track visits and conversions.</p>",
+      "example": "",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "separateTracking",
+      "required": [],
+      "schema": [
+        "basic_boolean_schema"
+      ],
+      "style": []
+    },
+    "n93b2b62d_a67b_019c_dea9_2b82f136523f": {
+      "contentType": "zapi_schema__string",
+      "id": "93b2b62d-a67b-019c-dea9-2b82f136523f",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p><br></p>",
+      "example": "item_codename",
+      "name": "codename",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "recommended_item": {
+      "contentType": "zapi_schema__object",
+      "id": "f266ad58-de71-4ccd-9732-af82710f431c",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "RecommendedItem",
+      "additionalProperties": [],
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n93b2b62d_a67b_019c_dea9_2b82f136523f\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": ""
+    },
+    "n032a464b_e011_01b3_a46e_aa5e40de1985": {
+      "contentType": "zapi_schema__array",
+      "id": "032a464b-e011-01b3-a46e-aa5e40de1985",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "items": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"recommended_item\" class=\"kc-linked-item-wrapper\"></p>",
+      "uniqueItems": []
+    },
+    "recommended_items_dd7b0b6": {
+      "contentType": "zapi_response",
+      "id": "dd7b0b66-6bd4-4390-a734-d48ac5b654bb",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "description": "<p>OK</p>",
+      "example": "[\n    {\n        \"codename\": \"item_codename_1\"\n    },\n    {\n        \"codename\": \"item_codename_2\"\n    },\n    {\n        \"codename\": \"item_codename_3\"\n    }\n]",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n032a464b_e011_01b3_a46e_aa5e40de1985\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "da03b983_5f41_013b_a5e3_b226e49a945f": {
+      "contentType": "zapi_schema__string",
+      "id": "da03b983-5f41-013b-a5e3-b226e49a945f",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The visitor's IP address.</p>\n<p><strong>Note</strong>: This data is not persistent.</p>",
+      "example": "",
+      "name": "ip",
+      "acceptedValues": "",
+      "apiReference": [],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "a4a35245_5607_018f_d190_bf99776a30dd": {
+      "contentType": "zapi_schema__string",
+      "id": "a4a35245-5607-018f-d190-bf99776a30dd",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The visitor's city</p>",
+      "example": "",
+      "name": "city",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "aa7f9a31_2e11_01d3_eb57_568530610865": {
+      "contentType": "zapi_schema__string",
+      "id": "aa7f9a31-2e11-01d3-eb57-568530610865",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The visitor's country</p>",
+      "example": "",
+      "name": "country",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n308c27c2_bf6f_01a0_78d3_49b948f2f88a": {
+      "contentType": "zapi_schema__string",
+      "id": "308c27c2-bf6f-01a0-78d3-49b948f2f88a",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>The source of the visitor's visit</p>",
+      "example": "",
+      "name": "referer",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "n60852227_c3bc_0189_ca1e_01f6ec83ba81": {
+      "contentType": "zapi_schema__string",
+      "id": "60852227-c3bc-0189-ca1e-01f6ec83ba81",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Identification of the application tracking the visitor</p>",
+      "example": "",
+      "name": "sourceApp",
+      "acceptedValues": "",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "defaultValue": "",
+      "format": "",
+      "maxLength": null,
+      "minLength": null
+    },
+    "ccdd5f5d_90ec_019b_f6c6_c8783ecc8bba": {
+      "contentType": "zapi_schema__boolean",
+      "id": "ccdd5f5d-90ec-019b-f6c6-c8783ecc8bba",
+      "nullable": [],
+      "readonly": [],
+      "writeonly": [],
+      "description": "<p>Whether the user is using a mobile device</p>",
+      "example": "",
+      "name": "mobile",
+      "apiReference": [
+        "Recommendation API"
+      ]
+    },
+    "caller_info": {
+      "contentType": "zapi_schema__object",
+      "id": "e3a9193a-4469-4f24-87ae-2e9c813bd470",
+      "description": "<p><br></p>",
+      "example": "",
+      "name": "CallerInfo",
+      "additionalProperties": [],
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "properties": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"da03b983_5f41_013b_a5e3_b226e49a945f\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"a4a35245_5607_018f_d190_bf99776a30dd\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"aa7f9a31_2e11_01d3_eb57_568530610865\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n308c27c2_bf6f_01a0_78d3_49b948f2f88a\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n60852227_c3bc_0189_ca1e_01f6ec83ba81\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"ccdd5f5d_90ec_019b_f6c6_c8783ecc8bba\" class=\"kc-linked-item-wrapper\"></p>",
+      "required": ""
+    },
+    "callerinfo": {
+      "contentType": "zapi_request_body",
+      "id": "94fe614d-0bc0-4951-8870-f14db87ceabf",
+      "description": "<p>A <em>Caller info</em> object contains additional information about the user for whom you're requesting recommendations. It can be filled up completely by the API user, in which case provided information is stored in the recommendation system to further improve its performance, or if an IP address is provided, the geolocation data will be filled up automatically by the system.</p>\n<p><em>Note: The IP address is not being stored anywhere in the system.</em></p>",
+      "example": "{\n  \"ip\": \"127.0.0.1\",\n  \"sourceApp\" : \"web\"\n}",
+      "mediaType": [
+        "application/json"
+      ],
+      "required": [],
+      "schema": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"caller_info\" class=\"kc-linked-item-wrapper\"></p>"
+    },
+    "contentitemid": {
+      "contentType": "zapi_parameter",
+      "id": "756e167b-151f-4a99-9636-bf4f0589a077",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>The codename of the currently visited content item.</p>",
+      "example": "item_codename_0",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "contentItemId",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_string_schema"
+      ],
+      "style": []
+    },
+    "a984cea2_4938_01d9_fa92_0f04c8dd28a3": {
+      "contentType": "zapi_response",
+      "id": "a984cea2-4938-01d9-fa92-0f04c8dd28a3",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "description": "<p>OK</p>",
+      "example": "",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p><br></p>"
+    },
+    "n8446d00e_7c3b_018d_14aa_564800209bdb": {
+      "contentType": "zapi_response",
+      "id": "8446d00e-7c3b-018d-14aa-564800209bdb",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "description": "<p>OK</p>",
+      "example": "",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [
+        "application/json"
+      ],
+      "schema": "<p><br></p>"
+    },
+    "portionpercentage": {
+      "contentType": "zapi_parameter",
+      "id": "a942ac9b-2247-40c7-a06f-b13e96abaa8c",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "deprecated": [],
+      "description": "<p>The percentage of the page the user has seen.</p>",
+      "example": "20",
+      "explode": [],
+      "location": [
+        "query"
+      ],
+      "name": "portionPercentage",
+      "required": [
+        "true"
+      ],
+      "schema": [
+        "basic_integer_schema"
+      ],
+      "style": []
+    },
+    "f840d282_7fa7_0115_87a0_37227478e122": {
+      "contentType": "zapi_response",
+      "id": "f840d282-7fa7-0115-87a0-37227478e122",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "description": "<p>OK</p>",
+      "example": "",
+      "headers": [],
+      "httpStatus": [
+        "200"
+      ],
+      "mediaType": [],
+      "schema": "<p><br></p>"
+    },
+    "view_recommended_items__get_": {
+      "contentType": "zapi_path_operation",
+      "id": "f07810fd-df45-4d7d-94f7-47ea376b8173",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "category": [
+        "recommended_items"
+      ],
+      "codeSamples": [
+        "recommendation_api_get_recommended_items"
+      ],
+      "deprecated": [],
+      "description": "<p>Returns a list of codenames of recommended content items.</p>",
+      "name": "View recommended items",
+      "parameters": [
+        "visitid",
+        "currentitemid",
+        "limit",
+        "contenttypename",
+        "filterquery",
+        "boosterquery",
+        "sourceapp",
+        "separatetracking"
+      ],
+      "path": "/recommend/items",
+      "pathOperation": [
+        "GET"
+      ],
+      "requestBody": "<p><br></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"recommended_items_dd7b0b6\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "view-recommended-items"
+    },
+    "view_recommended_items__post_": {
+      "contentType": "zapi_path_operation",
+      "id": "1fc9fb66-66fb-4e80-9db7-ecd33ec3c265",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "category": [
+        "recommended_items"
+      ],
+      "codeSamples": [
+        "recommendation_api_post_recommended_items"
+      ],
+      "deprecated": [],
+      "description": "<p>Returns a list of codenames of recommended content items.</p>",
+      "name": "View recommended items",
+      "parameters": [
+        "visitid",
+        "currentitemid",
+        "limit",
+        "contenttypename",
+        "filterquery",
+        "boosterquery",
+        "sourceapp",
+        "separatetracking"
+      ],
+      "path": "/recommend/items",
+      "pathOperation": [
+        "POST"
+      ],
+      "requestBody": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"callerinfo\" class=\"kc-linked-item-wrapper\"></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"recommended_items_dd7b0b6\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "view-recommended-items"
+    },
+    "track_a_visit": {
+      "contentType": "zapi_path_operation",
+      "id": "c502a680-0e5e-4c49-bff3-5f3a0c02a2d1",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "category": [
+        "tracking"
+      ],
+      "codeSamples": [
+        "recommendation_api_post_track_visit"
+      ],
+      "deprecated": [],
+      "description": "<p>Logs a visit for a specific content item.</p>",
+      "name": "Track a visit",
+      "parameters": [
+        "visitid",
+        "contentitemid"
+      ],
+      "path": "/track/visit",
+      "pathOperation": [
+        "POST"
+      ],
+      "requestBody": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"callerinfo\" class=\"kc-linked-item-wrapper\"></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"a984cea2_4938_01d9_fa92_0f04c8dd28a3\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "track-a-visit"
+    },
+    "track_a_conversion": {
+      "contentType": "zapi_path_operation",
+      "id": "f1666506-4eb0-442a-a8f2-a4dad940364b",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "category": [
+        "tracking"
+      ],
+      "codeSamples": [
+        "recommendation_api_post_track_conversion"
+      ],
+      "deprecated": [],
+      "description": "<p>A conversion is similar to a user visit but has a higher value.</p>",
+      "name": "Track a conversion",
+      "parameters": [
+        "visitid",
+        "contentitemid"
+      ],
+      "path": "/track/conversion",
+      "pathOperation": [
+        "POST"
+      ],
+      "requestBody": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"callerinfo\" class=\"kc-linked-item-wrapper\"></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n8446d00e_7c3b_018d_14aa_564800209bdb\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "track-a-conversion"
+    },
+    "track_view_of_portion_of_content": {
+      "contentType": "zapi_path_operation",
+      "id": "c54c70c8-7f82-43d6-81a3-f6e993fd178e",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "category": [
+        "tracking"
+      ],
+      "codeSamples": [
+        "recommendation_api_post_track_portionview"
+      ],
+      "deprecated": [],
+      "description": "<p>Tracks a user viewing a portion of content (multiple subsequent portion views are joined and the value is maximized).</p>",
+      "name": "Track view of portion of content",
+      "parameters": [
+        "visitid",
+        "contentitemid",
+        "portionpercentage"
+      ],
+      "path": "/track/portionview",
+      "pathOperation": [
+        "POST"
+      ],
+      "requestBody": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"link\" data-codename=\"callerinfo\" class=\"kc-linked-item-wrapper\"></p>",
+      "responses": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"f840d282_7fa7_0115_87a0_37227478e122\" class=\"kc-linked-item-wrapper\"></p>",
+      "url": "track-view-of-portion-of-content"
+    },
+    "bearer_authentication": {
+      "contentType": "zapi_security_scheme",
+      "id": "31451e2f-10b8-44ce-a491-7c37a9d0b5ff",
+      "apiKeyLocation": [],
+      "apiKeyName": "",
+      "apiReference": [
+        "Recommendation API",
+        "Delivery API"
+      ],
+      "bearerFormat": "Bearer <YOUR_API_KEY>",
+      "description": "<p>API key to authorize requests to the API. If you don't have an API key for the API yet, get yours in <a href=\"https://app.kenticocloud.com/\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">Kentico Cloud</a> &gt; Project settings &gt; API keys.</p>",
+      "name": "Bearer",
+      "scheme": "bearer",
+      "type": [
+        "http"
+      ]
+    },
+    "cc06b206_8e7a_01fd_c9c0_e30df93dd033": {
+      "contentType": "zapi_server",
+      "id": "cc06b206-8e7a-01fd-c9c0-e30df93dd033",
+      "description": "Recommendation API",
+      "url": "https://kc-recommender-api-beta.kenticocloud.com/api"
+    },
+    "dd641aff_aa00_012c_c4da_1fcba9aafb97": {
+      "contentType": "callout",
+      "id": "dd641aff-aa00-012c-c4da-1fcba9aafb97",
+      "content": "<p><strong>Premium feature</strong></p>\n<p>The Recommendation API requires an Enterprise plan. See <a href=\"https://kenticocloud.com/pricing\">Pricing</a> for more details.</p>",
+      "type": [
+        "Info"
+      ]
+    },
+    "n6476f82c_c3d6_016d_266d_9e623de9b1f2": {
+      "contentType": "callout",
+      "id": "6476f82c-c3d6-016d-266d-9e623de9b1f2",
+      "content": "<p><strong>Recommendation API is in Beta</strong></p>\n<p>This feature is in Beta and its behavior may change in the future.</p>",
+      "type": [
+        "Note"
+      ]
+    },
+    "recommendation_api": {
+      "contentType": "zapi_specification",
+      "id": "87caa943-1497-4e9c-9955-fbec2b88e4ba",
+      "apiReference": [
+        "Recommendation API"
+      ],
+      "categories": [
+        "recommended_items",
+        "tracking"
+      ],
+      "contact": [],
+      "description": "<p>The Recommendation API is a secure REST API that provides access to recommendations made by an engine that employs machine learning to improve its accuracy.</p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"dd641aff_aa00_012c_c4da_1fcba9aafb97\" class=\"kc-linked-item-wrapper\"></p>\n<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"n6476f82c_c3d6_016d_266d_9e623de9b1f2\" class=\"kc-linked-item-wrapper\"></p>\n<p>Use the API to provide personalized recommendations to your users.</p>\n<p>The API makes recommendations based on a specific content type. Read <a data-item-id=\"178360b9-4a33-43d2-aecf-52117ab4c5be\" href=\"\">Personalizing content with smart recommendations</a> to learn more including how to set up access to the API.</p>",
+      "license": [],
+      "pathOperations": [
+        "view_recommended_items__get_",
+        "view_recommended_items__post_",
+        "track_a_visit",
+        "track_a_conversion",
+        "track_view_of_portion_of_content"
+      ],
+      "security": [
+        "bearer_authentication"
+      ],
+      "servers": "<p type=\"application/kenticocloud\" data-type=\"item\" data-rel=\"component\" data-codename=\"cc06b206_8e7a_01fd_c9c0_e30df93dd033\" class=\"kc-linked-item-wrapper\"></p>",
+      "termsOfService": "",
+      "title": "Recommendation API",
+      "url": "recommendation-api",
+      "version": "1"
+    }
+  },
+  "operation": "UPDATE",
+  "zapiSpecificationCodename": "recommendation_api"
+}
